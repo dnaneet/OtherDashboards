@@ -115,8 +115,7 @@ if selection == "Grade distribution":
   st.markdown("Select a semester and set a threshold score.  The three columns below will return the enrollment, number of students with an overall score > selected threshold, and number of 'F's.")
   sem = st.selectbox('Select semester of interest:', ['Fall 2017', 'Spring 2018', 'Fall 2018', 'Spring 2019', 'Fall 2019', 'Fall 2020', 'Spring 2021', 'Fall 2021'])
   ts =  st.slider('Select threshold final score:', max_value = 100, min_value=0)
-  df_grades = pd.read_csv("all_grades.csv")
-  st.markdown("A key observation is that the number of 'F' grades has decreased from about ~15% of the class to less than ~5%, since 2017.")
+  df_grades = pd.read_csv("all_grades.csv")  
   col1, col2, col3 = st.columns(3)
   with col1:  
     st.write("Number of students enrolled", df_grades[df_grades["Semester"] == sem]["Semester"].count())
@@ -126,6 +125,8 @@ if selection == "Grade distribution":
     st.write("Number of students who had a final score greater than the selected threshold:", df_grades[(df_grades["Semester"] == sem) & (df_grades["Final Score"] > ts)]["Final Score"].count())
   with col3:
     st.write("Number of 'F' grades:", df_grades[(df_grades["Semester"] == sem) & (df_grades["Final Grade"] == "F")]["Final Grade"].count())
+
+  st.markdown("#### A key observation is that the number of 'F' grades has decreased from about ~15% of the class to less than ~5%, since 2017.")  
 if selection == "Critical Incident Questionnaire data":
   st.markdown("### The Critical Incident Questionnaire (CIQ) data may be queried via this tab") 
   st.markdown("Unlike the 'early-term survey' deployed through Canvas, the CIQ represents a weekly evolution of team dynamics, instead of a single data point collected in week-4. I used my prior experience with MEP3 and the CIQ data to recognize challenges and provided positive intervention to teams when needed.  This does not perfectly solve 'team problems' but allows me to preemptively allay them.  I speculate that high-functioning teams are the ones that voluntarily completed this survey.  If this were made mandatory, it would develop really good picture of team dynamics within a classroom ")
