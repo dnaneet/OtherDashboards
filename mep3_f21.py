@@ -30,7 +30,7 @@ st.set_page_config(
      page_title='MEP3 Dashboard Fall 2021'
      #layout="wide"
 )
-selection = st.sidebar.radio('Select ', ["Summary", "Feedback from students", "Grade distribution"])
+selection = st.sidebar.radio('Select ', ["Summary", "Feedback from students", "Grade distribution", "Critical Incident Questionnaire data"])
 st.sidebar.markdown("This dashboard was created using Python and Streamlit by Aneet Narendranath, PhD.")
 
 
@@ -126,3 +126,6 @@ if selection == "Grade distribution":
     st.write("Number of students who had a final score greater than the selected threshold:", df_grades[(df_grades["Semester"] == sem) & (df_grades["Final Score"] > ts)]["Final Score"].count())
   with col3:
     st.write("Number of 'F' grades:", df_grades[(df_grades["Semester"] == sem) & (df_grades["Final Grade"] == "F")]["Final Grade"].count())
+if selection == "Critical Incident Questionnaire data":
+  st.markdown("## The Critical Incident Questionnaire (CIQ) data may be queried via this tab") 
+     
