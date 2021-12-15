@@ -64,13 +64,13 @@ if selection == "Summary":
 if selection == "Feedback from students":   
     st.markdown("## Feedback from students on the 4 new elements deployed")
     st.markdown("I requested feedback on the following 4 new assessment and teaming elements that I used in MEP3 this semester, via a single-question Google Form survey.  The question on the survey asked students to rate the importance of the following four elements in ensuring they were productive members of their design team.  The rating scale was 1 thru 5 with 1 = not important while 5 = extremel important.")
-    st.markdown("48 out of 141 students completed the survey but only 20 out of these 48 provided written comments.  These written comments had their sentiment analysed using Machine Learning functions.  A sentiment value of +1 is 'highly positive' while a sentiment value of -1 is 'highly negative'.")
     '''
      - Unlimited attempts on quizzes (instead of the traditional “single attempt”).
      - Mastery Quizzes (instead of traditional timed exams).
      - 5-6 member design teams (instead of 3-4 member teams).
      - Two design reviews with DR-1 providing intermediate feedback on your design(instead of a single final presentation).
     '''
+    st.markdown("48 out of 141 students completed the survey but only 20 out of these 48 provided written comments.  These written comments had their sentiment analysed using Machine Learning functions.  A sentiment value of +1 is 'highly positive' while a sentiment value of -1 is 'highly negative'.")
     #df2 = pd.DataFrame(
     #np.random.randn(50, 20),
     #columns=('col %d' % i for i in range(20)))
@@ -91,6 +91,7 @@ if selection == "Feedback from students":
     #df["Sentiment of comment"] = i_polarity
     #st.table(df[df["comments"] != 0]["comments"])       
     #st.write(i_polarity) 
+    st.markdown("### Survey results")
     df_comments = pd.DataFrame({"Comment" : comments["comments"], "Sentiment of comment": i_polarity})
     st.table(df_comments)
 
