@@ -106,3 +106,4 @@ if selection == "Grade distribution":
   df_grades = pd.read_csv("all_grades.csv")
   st.write(sem)
   st.write("Number of students enrolled", df_grades[df_grades["Semester"] == sem]["Semester"].count())
+  st.write("Percentage of students who received more than the threshold score:", np.round(df_grades[(df_grades["Semester"] == sem) & (df["Final Score"] > ts)]/df_grades[df_grades["Semester"] == sem]["Semester"].count()))
