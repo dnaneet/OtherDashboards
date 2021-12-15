@@ -1,0 +1,391 @@
+Activity,Class,Term,Format,Instr,School
+"MEP3 R03 Peer-Eval 2","MEP3 Fall 2021","Fall 2021","Lecture w/ Lab","Dharmavaram Narendra","Michigan Technological University"
+
+,,,,"Rater 1",,,,,"Rater 2",,,,,"Rater 3",,,,,"Rater 4",,,,,"Rater 5",,,,,"Rater 6",,,,,"Rater 7",,,,,
+"Student Name","Student ID","Email","Team ID","Rater #","C ","I ","K ","E ","H ","C ","I ","K ","E ","H ","C ","I ","K ","E ","H ","C ","I ","K ","E ","H ","C ","I ","K ","E ","H ","C ","I ","K ","E ","H ","C ","I ","K ","E ","H ","Adj Factor (w/ Self)","Adj Factor (w/o Self)","Note"
+"Alec, Pominville","3982837","awpominv@mtu.edu","301","1","5","5","5","5","5","","","","","","5","4","5","5","4","5","5","5","5","5","","","","","","5","5","5","5","5","","","","","","1.05","1.05",""
+"Drow, Evan","eddrow","eddrow@mtu.edu","301","2","5","5","5","5","5","","","","","","4","4","5","5","4","5","5","5","5","5","","","","","","5","5","5","5","5","","","","","","1.05","1.05",""
+"Grant, Heyboer","3987486","gcheyboe@mtu.edu","301","3","5","5","5","5","5","","","","","","5","4","5","5","4","5","5","5","5","5","","","","","","5","5","5","5","5","","","","","","1.05","1.05","High"
+"Kyle, Bruursema","3984535","kjbruurs@mtu.edu","301","4","5","5","5","5","5","","","","","","5","5","5","5","4","5","5","5","5","5","","","","","","5","5","5","5","5","","","","","","1.05","1.05","High"
+"Mills, Jacob","jjmills","jjmills@mtu.edu","301","5","1","1","1","1","1","","","","","","1","1","1","1","1","1","1","1","1","1","","","","","","5","5","5","5","5","","","","","","0.45","0.45","Low"
+"Tim, Kramer","3995135","tlkramer@mtu.edu","301","6","5","5","5","5","5","","","","","","4","4","5","5","4","5","5","5","5","5","","","","","","5","5","5","5","5","","","","","","1.05","1.05",""
+"Cal, McNabb","3989695","wcmcnabb@mtu.edu","302","1","3","4","3","4","4","4","5","5","4","5","4","4","4","4","4","4","5","5","5","4","5","5","5","5","5","4","4","4","4","4","","","","","","1.00","1.02",""
+"Dom, Bianchi","3987044","dwbianch@mtu.edu","302","2","5","5","4","5","4","4","5","5","4","5","5","4","5","4","4","4","5","5","5","4","5","5","5","5","5","5","4","4","4","4","","","","","","1.05","1.05",""
+"Hunter, Bondy","3986921","hjbondy@mtu.edu","302","3","5","5","4","5","5","5","5","5","5","5","5","4","4","5","4","5","4","4","5","5","5","5","5","5","5","4","4","4","4","4","","","","","","1.05","1.05",""
+"Jacob, Weide","3989866","jaweide@mtu.edu","302","4","4","4","3","4","4","4","4","5","4","5","4","4","3","4","4","3","3","3","3","4","5","5","5","5","5","5","4","4","4","4","","","","","","0.93","1.00","Under"
+"Parker, Luce","3978447","pjluce@mtu.edu","302","5","4","4","3","4","4","4","5","5","4","5","4","4","3","3","4","4","4","3","3","3","5","5","5","5","5","5","4","4","4","4","","","","","","0.94","0.91",""
+"Ted, Gronda","3334305","tcgronda@mtu.edu","302","6","4","4","4","4","4","5","5","5","5","5","5","4","4","4","4","5","4","4","4","5","5","5","5","5","5","4","4","4","4","4","","","","","","1.02","1.04",""
+"Blake, Soper","3978534","bjsoper@mtu.edu","303","1","5","5","4","5","5","5","4","4","5","5","5","4","5","4","5","5","4","4","5","4","4","3","3","3","4","4","2","3","3","5","","","","","","1.05","1.05",""
+"Brandon, Wavrunek","3990509","bjwavrun@mtu.edu","303","2","3","4","4","4","4","4","5","5","5","4","4","4","5","5","4","4","4","5","5","4","3","3","3","3","3","2","2","2","3","4","","","","","","1.00","0.94",""
+"Gavin, Sheffer","3991980","gwsheffe@mtu.edu","303","3","3","4","4","4","4","4","5","4","4","4","4","4","5","4","4","4","4","4","5","4","3","3","3","3","3","2","2","2","3","3","","","","","","0.93","0.90",""
+"Jarett, Gundersen","3991826","jjgunder@mtu.edu","303","4","4","5","4","4","4","4","4","4","5","4","4","4","5","4","4","4","4","4","5","4","3","3","3","3","3","2","2","2","3","3","","","","","","0.95","0.92",""
+"Ryan, Mahoney","3987176","rdmahone@mtu.edu","303","5","3","5","4","4","4","4","4","4","5","4","4","5","5","5","4","4","4","4","5","4","3","3","3","3","3","2","2","2","3","3","","","","","","1.00","1.00",""
+"Thomas, Draper","3978291","trdraper@mtu.edu","303","6","5","5","5","5","5","5","5","5","4","5","5","5","5","5","5","5","4","5","5","4","4","3","3","3","4","4","2","3","3","5","","","","","","1.05","1.05","Under"
+"Abbott, Griffin","3950002","gdabbott@mtu.edu","304","1","5","5","5","5","5","5","4","5","5","5","3","3","2","3","4","4","5","5","5","5","4","3","3","3","4","3","3","2","3","3","","","","","","1.00","0.93","Cliq"
+"Daavettila, Andrew","11111111","ajdaavet@mtu.edu","304","2","5","5","5","5","5","4","4","5","4","4","1","2","2","2","1","3","4","5","5","3","2","2","2","3","3","2","2","2","2","2","","","","","","0.78","0.74","Cliq"
+"Derek, Thompson","3949415","dtthomps@mtu.edu","304","3","5","5","5","5","5","4","4","4","4","4","3","4","3","4","4","5","5","5","5","5","3","3","2","3","3","4","4","4","5","4","","","","","","1.00","1.03","Cliq"
+"Jenna, Johnson","3988259","jennaj@mtu.edu","304","4","5","5","5","5","5","5","4","4","4","5","4","5","3","4","4","5","5","5","5","5","4","4","4","4","4","5","5","5","5","5","","","","","","1.05","1.05","Cliq"
+"Kathryn, Seward","3989865","kaseward@mtu.edu","304","5","5","5","5","5","5","5","5","5","4","5","4","4","3","4","5","5","5","5","5","4","3","4","3","4","4","2","3","2","3","3","","","","","","1.01","1.03","Cliq"
+"Nate, Learman","3982715","nmlearma@mtu.edu","304","6","5","5","5","5","5","4","4","5","5","5","4","5","3","4","4","5","5","5","5","5","4","4","3","4","4","5","5","5","5","4","","","","","","1.05","1.05","Cliq"
+"Emma, King","3980949","ekking@mtu.edu","305","1","4","5","4","5","4","4","5","4","5","4","4","4","4","4","4","1","3","3","3","2","4","4","4","4","4","5","5","5","5","5","","","","","","0.93","0.92",""
+"Hunter, McGuire","3988232","hsmcguir@mtu.edu","305","2","4","5","4","5","5","5","4","4","4","4","5","5","5","5","5","5","5","5","5","5","4","5","5","5","5","5","5","5","5","5","","","","","","1.05","1.05","High"
+"Megan, Mahoney","3980956","mkmahone@mtu.edu","305","3","4","5","5","5","4","4","5","4","5","4","4","4","4","5","4","3","4","5","4","3","4","5","5","5","5","5","5","5","5","5","","","","","","1.03","1.04",""
+"Nolan, Davis","3991434","nldavis@mtu.edu","305","4","3","4","5","4","3","4","5","4","4","4","5","4","5","5","4","4","5","5","5","4","4","4","4","4","4","5","5","5","5","5","","","","","","1.01","1.00",""
+"Radavich, Tyler","tjradavi","tjradavi@mtu.edu","305","5","3","4","3","4","3","5","4","4","4","4","4","4","4","4","4","4","3","4","4","4","4","4","4","4","4","5","5","5","5","5","","","","","","0.94","0.94",""
+"Trevor, Maizland","3944284","tmmaizla@mtu.edu","305","6","3","5","5","4","3","4","4","4","4","4","4","5","4","5","5","4","4","4","3","4","4","4","4","4","4","5","5","5","5","5","","","","","","1.00","0.95",""
+"Clabuesch, Kirk","kpclabue","kpclabue@mtu.edu","306","1","3","3","4","5","4","1","1","2","1","1","1","2","1","2","2","1","1","1","1","1","5","5","5","5","5","1","3","1","1","1","","","","","","0.58","0.51","Over"
+"Frank, Bruck","4022906","fnbruck@mtu.edu","306","2","5","4","4","5","5","4","5","4","4","5","4","4","4","4","4","5","5","5","4","5","5","5","5","5","5","4","4","4","4","5","","","","","","1.05","1.05",""
+"Galia, Miskevich","3987499","gmiskevi@mtu.edu","306","3","4","3","4","5","4","4","5","4","4","4","3","4","4","4","4","4","4","4","4","5","5","5","5","5","5","3","4","4","4","4","","","","","","1.04","1.05",""
+"Kamila, Staniszewski","3991261","kjstanis@mtu.edu","306","4","3","4","4","5","4","4","5","4","4","4","3","4","4","4","4","4","4","4","4","4","5","5","5","5","5","3","4","4","4","4","","","","","","1.03","1.03",""
+"Robert, Eakright","3993810","rgeakrig@mtu.edu","306","5","5","4","4","5","5","4","5","4","4","5","4","4","4","4","4","4","4","4","4","4","5","5","5","5","5","4","4","4","4","5","","","","","","1.05","1.05",""
+"Troy, Gietek","3984532","tggietek@mtu.edu","306","6","5","5","4","5","5","5","5","4","4","5","4","4","4","4","4","5","5","5","4","5","5","5","5","5","5","5","4","5","4","5","","","","","","1.05","1.05","High"
+"Beal, Mason","mcbeal","mcbeal@mtu.edu","307","1","3","4","4","4","5","1","2","2","2","1","2","2","1","1","2","1","1","1","1","2","4","3","4","3","4","4","4","4","4","4","","","","","","0.77","0.70","Over"
+"Chris, Wozniak","3993603","cdwoznia@mtu.edu","307","2","5","5","5","5","5","4","5","3","4","4","5","4","3","4","5","5","5","5","4","5","5","5","5","4","5","4","4","4","4","4","","","","","","1.05","1.05","High"
+"Duncan, MacConnell","3988639","dkmaccon@mtu.edu","307","3","5","5","5","5","5","4","4","3","3","5","4","4","3","3","4","3","3","2","3","3","4","4","4","4","4","4","4","4","4","4","","","","","","1.05","1.05","Conf"
+"Gencheff, Eric","engenche","engenche@mtu.edu","307","4","5","5","5","5","5","4","5","4","4","4","4","5","3","4","5","3","3","2","3","3","5","4","5","5","5","4","4","4","4","4","","","","","","1.05","1.05","Under"
+"Giovanni, VanDyke","3900713","gvandyke@mtu.edu","307","5","4","4","4","5","5","2","2","2","3","3","3","2","1","2","2","2","2","2","2","3","4","3","4","3","4","4","4","4","4","4","","","","","","0.90","0.87",""
+"Pepera, Tighe","tjpepera","tjpepera@mtu.edu","307","6","2","2","3","3","5","2","2","2","3","1","2","2","1","1","2","1","1","1","1","1","3","3","3","3","3","3","4","4","4","4","","","","","","0.70","0.62","Over"
+"Abby, Woodford","3987557","aswoodfo@mtu.edu","308","1","5","5","5","5","5","5","5","5","5","5","4","5","5","5","4","4","4","3","4","3","5","5","5","5","5","","","","","","4","5","4","5","5","1.05","1.05","High"
+"Atlas, Rosenburg","3981008","axrosenb@mtu.edu","308","2","5","5","5","5","5","4","4","3","4","4","4","5","5","5","4","4","4","3","4","4","5","5","5","5","5","","","","","","4","5","5","4","5","1.05","1.05","High"
+"Daavettila, Russell","22222222","russelld@mtu.edu","308","3","4","5","4","3","3","3","3","3","4","4","4","4","4","4","4","3","3","3","3","3","5","5","5","5","5","","","","","","3","3","3","3","3","1.00","1.00",""
+"Mandy, Lepak","3982711","allepak@mtu.edu","308","4","5","5","5","5","4","4","5","4","5","4","4","4","4","5","4","3","3","3","3","3","5","5","5","5","5","","","","","","4","5","5","4","4","1.05","1.05","Under"
+"Max, Knoerl","3900668","mrknoerl@mtu.edu","308","5","3","3","3","3","2","3","4","3","4","4","2","3","3","4","2","3","3","3","3","3","5","5","5","5","5","","","","","","2","3","2","3","3","0.87","0.79","Over"
+"Paycee, Assenmacher","4001497","pjassenm@mtu.edu","308","6","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","","","","","","3","3","3","3","3","0.35","0.35","Low"
+"Sean, Munro","3989414","scmunro@mtu.edu","308","7","5","5","5","5","5","5","5","5","5","5","5","5","5","5","5","5","5","3","4","4","5","5","5","5","5","","","","","","4","4","4","4","5","1.05","1.05","High"
+"Ditmore, Will","wbditmor","wbditmor@mtu.edu","309","1","","","","","","4","5","3","4","5","4","4","3","4","3","5","5","5","5","5","5","5","5","5","5","4","5","4","4","5","","","","","","1.05","1.05",""
+"Jimmy, Duer","3990153","jhduer@mtu.edu","309","2","","","","","","4","5","4","4","5","4","4","3","3","3","5","5","5","5","4","4","3","4","4","4","4","3","4","3","4","","","","","","0.95","0.92",""
+"Kate, Bridges","3949833","kebridge@mtu.edu","309","3","","","","","","4","5","4","4","4","4","4","4","3","3","5","5","5","5","4","4","4","4","5","3","4","4","4","4","3","","","","","","1.00","1.00",""
+"Popovitz, Cyrus","3978453","clpopovi@mtu.edu","309","4","","","","","","4","5","4","4","5","4","4","4","4","4","5","5","5","4","4","4","3","4","5","3","4","4","4","3","3","","","","","","1.00","0.94",""
+"Vellequette, Sam","savelleq","savelleq@mtu.edu","309","5","","","","","","5","5","4","4","5","5","4","3","3","4","5","5","5","5","5","5","3","4","4","5","5","3","4","4","5","","","","","","1.03","1.04",""
+"Wurtz, Cynthia","3929381","cmwurtz@mtu.edu","309","6","","","","","","5","5","4","5","5","4","4","4","4","3","5","5","5","5","5","5","5","5","5","4","4","4","4","3","3","","","","","","1.04","1.05",""
+"Dusten, Gonzalez","3946913","dgonzale@mtu.edu","310","1","3","3","3","4","4","5","5","5","5","5","4","3","4","3","5","4","4","3","4","3","5","5","5","5","5","","","","","","","","","","","1.05","1.05","High"
+"Hollenbeck, Kiah","knhollen","knhollen@mtu.edu","310","2","4","4","3","4","4","5","5","5","5","5","3","3","3","3","3","5","4","4","4","4","5","5","5","5","5","","","","","","","","","","","1.05","1.05",""
+"James, Behrens","3942270","behrens@mtu.edu","310","3","4","4","3","4","4","5","5","5","5","5","5","3","5","3","5","5","5","4","5","4","5","5","5","5","5","","","","","","","","","","","1.05","1.05","High"
+"Miller, Nathan","nathanmi","nathanmi@mtu.edu","310","4","3","4","3","4","4","5","5","5","5","5","3","2","3","2","2","4","5","5","3","4","5","5","5","5","5","","","","","","","","","","","1.05","1.05",""
+"Ruuska, Charles","3939180","crruuska@mtu.edu","310","5","4","4","3","4","4","5","5","5","5","5","2","3","2","2","2","3","3","3","4","3","5","5","5","5","5","","","","","","","","","","","1.02","1.00",""
+"Tyler, Hooyman","4006146","thooyman@mtu.edu","310","6","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","2","1","1","1","1","5","5","5","5","5","","","","","","","","","","","0.49","0.49","Low"
+"Byun, Misong","mbyun","mbyun@mtu.edu","311","1","3","3","3","3","3","4","5","4","4","4","5","5","5","5","5","3","3","3","3","3","3","3","4","4","4","5","5","5","5","5","","","","","","0.93","1.00","Under"
+"Kyle, Watkins","3897428","kbwatkin@mtu.edu","311","2","3","3","3","3","3","4","5","4","4","4","5","5","5","5","5","3","3","3","3","3","3","3","4","4","4","5","5","5","5","5","","","","","","0.93","0.92",""
+"Leah, Smith","3952143","leahs@mtu.edu","311","3","4","3","3","3","3","4","5","4","4","4","5","5","5","5","5","4","4","4","4","4","4","5","5","5","5","5","5","5","5","5","","","","","","1.02","1.00",""
+"Mason, Kennedy","3991873","mwkenned@mtu.edu","311","4","4","4","4","4","4","5","5","4","4","5","5","5","5","5","5","5","5","5","5","5","5","4","5","4","5","5","5","5","5","5","","","","","","1.05","1.05",""
+"Nick, Drechsler","3989677","ngdrechs@mtu.edu","311","5","3","3","3","3","3","4","5","4","4","5","5","5","5","5","5","4","4","4","4","4","4","5","5","5","5","5","5","5","5","5","","","","","","1.02","1.00",""
+"Olivia, Wery","3980152","oawery@mtu.edu","311","6","3","3","3","3","3","4","5","4","4","4","5","5","5","5","5","4","4","4","4","4","4","5","5","5","4","5","5","5","5","5","","","","","","1.01","1.00",""
+"Ethan, Gutzeit","3990651","ewgutzei@mtu.edu","312","1","4","5","4","4","4","4","4","4","5","4","5","5","5","5","5","4","4","4","4","4","4","4","4","4","5","","","","","","","","","","","1.02","1.02",""
+"Jake, Holwerda","3944749","jhholwer@mtu.edu","312","2","3","5","3","3","3","4","5","4","5","5","5","5","5","5","5","3","3","3","3","3","4","4","4","4","4","","","","","","","","","","","0.94","0.91",""
+"Joe, Remschak","3989859","jwremsch@mtu.edu","312","3","3","5","3","3","3","3","4","3","5","4","5","5","5","5","5","3","3","3","3","3","4","4","4","4","4","","","","","","","","","","","0.90","0.84",""
+"Max, Qian","4015315","junyuq@mtu.edu","312","4","4","5","5","4","4","5","5","5","5","5","5","5","5","5","5","4","4","4","4","4","5","5","5","5","5","","","","","","","","","","","1.05","1.05","High"
+"Westphal, Ryan","rawestph","rawestph@mtu.edu","312","5","4","5","5","4","4","4","4","3","5","4","5","5","5","5","5","4","4","4","4","4","5","4","5","4","5","","","","","","","","","","","1.04","1.03",""
+
+,"C ","I ","K ","E ","H "
+"1","20","16","20","19","19"
+"2","17","19","20","8","11"
+"3","57","53","70","62","53"
+"4","154","133","132","144","155"
+"5","155","182","161","170","165"
+"Mean","4.01","4.11","3.98","4.09","4.08"
+"Medium","4.00","4.00","4.00","4.00","4.00"
+"Standard deviation","1.07","1.06","1.10","1.04","1.03"
+
+
+"Q1","I am satisfied with my present teammates"
+"Q2","I am pleased with the way my teammates and I work together"
+"Q3","I am very satisfied with working in this team"
+
+,,,"Team Satisfaction",,,,,
+"Student Name","Student ID","Email","Team ID","Q1","Q2","Q3","Mn","SD"
+"Alec, Pominville","3982837","awpominv@mtu.edu","301","5","5","5","5.00","0.00"
+"Drow, Evan","eddrow","eddrow@mtu.edu","301","","","","0.00","0.00"
+"Grant, Heyboer","3987486","gcheyboe@mtu.edu","301","5","5","5","5.00","0.00"
+"Kyle, Bruursema","3984535","kjbruurs@mtu.edu","301","5","5","5","5.00","0.00"
+"Mills, Jacob","jjmills","jjmills@mtu.edu","301","","","","0.00","0.00"
+"Tim, Kramer","3995135","tlkramer@mtu.edu","301","5","5","5","5.00","0.00"
+"Team Stats",,,,,,"5.00","0.00",
+"Cal, McNabb","3989695","wcmcnabb@mtu.edu","302","5","5","5","5.00","0.00"
+"Dom, Bianchi","3987044","dwbianch@mtu.edu","302","5","5","5","5.00","0.00"
+"Hunter, Bondy","3986921","hjbondy@mtu.edu","302","5","5","5","5.00","0.00"
+"Jacob, Weide","3989866","jaweide@mtu.edu","302","4","4","4","4.00","0.00"
+"Parker, Luce","3978447","pjluce@mtu.edu","302","5","5","5","5.00","0.00"
+"Ted, Gronda","3334305","tcgronda@mtu.edu","302","4","4","4","4.00","0.00"
+"Team Stats",,,,,,"4.67","0.49",
+"Blake, Soper","3978534","bjsoper@mtu.edu","303","4","3","4","3.67","0.58"
+"Brandon, Wavrunek","3990509","bjwavrun@mtu.edu","303","4","4","4","4.00","0.00"
+"Gavin, Sheffer","3991980","gwsheffe@mtu.edu","303","5","5","5","5.00","0.00"
+"Jarett, Gundersen","3991826","jjgunder@mtu.edu","303","4","4","4","4.00","0.00"
+"Ryan, Mahoney","3987176","rdmahone@mtu.edu","303","4","3","4","3.67","0.58"
+"Thomas, Draper","3978291","trdraper@mtu.edu","303","3","3","2","2.67","0.58"
+"Team Stats",,,,,,"3.83","0.79",
+"Abbott, Griffin","3950002","gdabbott@mtu.edu","304","5","4","4","4.33","0.58"
+"Daavettila, Andrew","11111111","ajdaavet@mtu.edu","304","5","5","5","5.00","0.00"
+"Derek, Thompson","3949415","dtthomps@mtu.edu","304","4","4","4","4.00","0.00"
+"Jenna, Johnson","3988259","jennaj@mtu.edu","304","4","4","4","4.00","0.00"
+"Kathryn, Seward","3989865","kaseward@mtu.edu","304","5","4","4","4.33","0.58"
+"Nate, Learman","3982715","nmlearma@mtu.edu","304","3","3","3","3.00","0.00"
+"Team Stats",,,,,,"4.11","0.68",
+"Emma, King","3980949","ekking@mtu.edu","305","5","5","5","5.00","0.00"
+"Hunter, McGuire","3988232","hsmcguir@mtu.edu","305","5","5","5","5.00","0.00"
+"Megan, Mahoney","3980956","mkmahone@mtu.edu","305","5","5","5","5.00","0.00"
+"Nolan, Davis","3991434","nldavis@mtu.edu","305","5","5","5","5.00","0.00"
+"Radavich, Tyler","tjradavi","tjradavi@mtu.edu","305","5","5","5","5.00","0.00"
+"Trevor, Maizland","3944284","tmmaizla@mtu.edu","305","5","5","5","5.00","0.00"
+"Team Stats",,,,,,"5.00","0.00",
+"Clabuesch, Kirk","kpclabue","kpclabue@mtu.edu","306","5","5","5","5.00","0.00"
+"Frank, Bruck","4022906","fnbruck@mtu.edu","306","5","5","5","5.00","0.00"
+"Galia, Miskevich","3987499","gmiskevi@mtu.edu","306","4","4","4","4.00","0.00"
+"Kamila, Staniszewski","3991261","kjstanis@mtu.edu","306","4","4","4","4.00","0.00"
+"Robert, Eakright","3993810","rgeakrig@mtu.edu","306","5","5","5","5.00","0.00"
+"Troy, Gietek","3984532","tggietek@mtu.edu","306","3","3","3","3.00","0.00"
+"Team Stats",,,,,,"4.33","0.77",
+"Beal, Mason","mcbeal","mcbeal@mtu.edu","307","4","4","4","4.00","0.00"
+"Chris, Wozniak","3993603","cdwoznia@mtu.edu","307","2","3","3","2.67","0.58"
+"Duncan, MacConnell","3988639","dkmaccon@mtu.edu","307","3","3","3","3.00","0.00"
+"Gencheff, Eric","engenche","engenche@mtu.edu","307","1","1","1","1.00","0.00"
+"Giovanni, VanDyke","3900713","gvandyke@mtu.edu","307","4","4","4","4.00","0.00"
+"Pepera, Tighe","tjpepera","tjpepera@mtu.edu","307","4","4","5","4.33","0.58"
+"Team Stats",,,,,,"3.17","1.20",
+"Abby, Woodford","3987557","aswoodfo@mtu.edu","308","4","5","4","4.33","0.58"
+"Atlas, Rosenburg","3981008","axrosenb@mtu.edu","308","4","4","4","4.00","0.00"
+"Daavettila, Russell","22222222","russelld@mtu.edu","308","4","4","4","4.00","0.00"
+"Mandy, Lepak","3982711","allepak@mtu.edu","308","4","4","4","4.00","0.00"
+"Max, Knoerl","3900668","mrknoerl@mtu.edu","308","4","4","4","4.00","0.00"
+"Paycee, Assenmacher","4001497","pjassenm@mtu.edu","308","","","","0.00","0.00"
+"Sean, Munro","3989414","scmunro@mtu.edu","308","4","4","4","4.00","0.00"
+"Team Stats",,,,,,"4.06","0.24",
+"Ditmore, Will","wbditmor","wbditmor@mtu.edu","309","","","","0.00","0.00"
+"Jimmy, Duer","3990153","jhduer@mtu.edu","309","4","4","5","4.33","0.58"
+"Kate, Bridges","3949833","kebridge@mtu.edu","309","4","4","4","4.00","0.00"
+"Popovitz, Cyrus","3978453","clpopovi@mtu.edu","309","5","5","5","5.00","0.00"
+"Vellequette, Sam","savelleq","savelleq@mtu.edu","309","5","5","5","5.00","0.00"
+"Wurtz, Cynthia","3929381","cmwurtz@mtu.edu","309","5","5","5","5.00","0.00"
+"Team Stats",,,,,,"4.67","0.49",
+"Dusten, Gonzalez","3946913","dgonzale@mtu.edu","310","3","3","2","2.67","0.58"
+"Hollenbeck, Kiah","knhollen","knhollen@mtu.edu","310","5","5","5","5.00","0.00"
+"James, Behrens","3942270","behrens@mtu.edu","310","3","2","3","2.67","0.58"
+"Miller, Nathan","nathanmi","nathanmi@mtu.edu","310","4","4","4","4.00","0.00"
+"Ruuska, Charles","3939180","crruuska@mtu.edu","310","5","5","5","5.00","0.00"
+"Tyler, Hooyman","4006146","thooyman@mtu.edu","310","","","","0.00","0.00"
+"Team Stats",,,,,,"3.87","1.13",
+"Byun, Misong","mbyun","mbyun@mtu.edu","311","4","4","4","4.00","0.00"
+"Kyle, Watkins","3897428","kbwatkin@mtu.edu","311","4","5","4","4.33","0.58"
+"Leah, Smith","3952143","leahs@mtu.edu","311","5","5","5","5.00","0.00"
+"Mason, Kennedy","3991873","mwkenned@mtu.edu","311","3","2","3","2.67","0.58"
+"Nick, Drechsler","3989677","ngdrechs@mtu.edu","311","4","4","3","3.67","0.58"
+"Olivia, Wery","3980152","oawery@mtu.edu","311","4","4","4","4.00","0.00"
+"Team Stats",,,,,,"3.94","0.80",
+"Ethan, Gutzeit","3990651","ewgutzei@mtu.edu","312","4","3","3","3.33","0.58"
+"Jake, Holwerda","3944749","jhholwer@mtu.edu","312","5","5","5","5.00","0.00"
+"Joe, Remschak","3989859","jwremsch@mtu.edu","312","4","4","4","4.00","0.00"
+"Max, Qian","4015315","junyuq@mtu.edu","312","2","2","2","2.00","0.00"
+"Westphal, Ryan","rawestph","rawestph@mtu.edu","312","5","4","4","4.33","0.58"
+"Team Stats",,,,,,"3.73","1.10",
+
+
+"Student","Team","Max Rater Practice Score","Average Rater Practice Score","Total Attempts"
+"Alec, Pominville","301","","",""
+"Drow, Evan","301","","",""
+"Grant, Heyboer","301","","",""
+"Kyle, Bruursema","301","","",""
+"Mills, Jacob","301","","",""
+"Tim, Kramer","301","","",""
+"Cal, McNabb","302","","",""
+"Dom, Bianchi","302","","",""
+"Hunter, Bondy","302","","",""
+"Jacob, Weide","302","","",""
+"Parker, Luce","302","","",""
+"Ted, Gronda","302","","",""
+"Blake, Soper","303","","",""
+"Brandon, Wavrunek","303","","",""
+"Gavin, Sheffer","303","","",""
+"Jarett, Gundersen","303","","",""
+"Ryan, Mahoney","303","","",""
+"Thomas, Draper","303","","",""
+"Abbott, Griffin","304","","",""
+"Daavettila, Andrew","304","","",""
+"Derek, Thompson","304","","",""
+"Jenna, Johnson","304","","",""
+"Kathryn, Seward","304","","",""
+"Nate, Learman","304","","",""
+"Emma, King","305","","",""
+"Hunter, McGuire","305","","",""
+"Megan, Mahoney","305","","",""
+"Nolan, Davis","305","","",""
+"Radavich, Tyler","305","","",""
+"Trevor, Maizland","305","","",""
+"Clabuesch, Kirk","306","","",""
+"Frank, Bruck","306","","",""
+"Galia, Miskevich","306","","",""
+"Kamila, Staniszewski","306","","",""
+"Robert, Eakright","306","","",""
+"Troy, Gietek","306","","",""
+"Beal, Mason","307","","",""
+"Chris, Wozniak","307","","",""
+"Duncan, MacConnell","307","","",""
+"Gencheff, Eric","307","","",""
+"Giovanni, VanDyke","307","","",""
+"Pepera, Tighe","307","","",""
+"Abby, Woodford","308","","",""
+"Atlas, Rosenburg","308","","",""
+"Daavettila, Russell","308","","",""
+"Mandy, Lepak","308","","",""
+"Max, Knoerl","308","","",""
+"Paycee, Assenmacher","308","","",""
+"Sean, Munro","308","","",""
+"Ditmore, Will","309","","",""
+"Jimmy, Duer","309","","",""
+"Kate, Bridges","309","","",""
+"Popovitz, Cyrus","309","","",""
+"Vellequette, Sam","309","","",""
+"Wurtz, Cynthia","309","","",""
+"Dusten, Gonzalez","310","","",""
+"Hollenbeck, Kiah","310","","",""
+"James, Behrens","310","","",""
+"Miller, Nathan","310","","",""
+"Ruuska, Charles","310","","",""
+"Tyler, Hooyman","310","","",""
+"Byun, Misong","311","","",""
+"Kyle, Watkins","311","","",""
+"Leah, Smith","311","","",""
+"Mason, Kennedy","311","","",""
+"Nick, Drechsler","311","","",""
+"Olivia, Wery","311","","",""
+"Ethan, Gutzeit","312","","",""
+"Jake, Holwerda","312","","",""
+"Joe, Remschak","312","","",""
+"Max, Qian","312","","",""
+"Westphal, Ryan","312","","",""
+
+
+"Student","Team","Comment"
+"Alec, Pominville","301","I really enjoy working with this group. All of the members show up on time and prepared to our meetings. To talk about members one at a time, Kyle is very good at getting meetings scheduled and getting them on our google calendars. Beyond that, he is great at interpreting assignment instructions to figure out what our deliverables should contain. Grant is great at troubleshooting software issues. If something is not working right, whether it&#39;s a missing constraint or wrong units, he seems to be able to quickly figure it out. Evan is good at looking ahead and keeping the group on a timeline to have ample time to complete each assignment, and to see the direction that we should be going with our assignments. Tim is very willing to &quot;do whatever it takes&quot; to help our group succeed. If we need to figure out how to properly overlay charts in MATLAB or if we don&#39;t think that our assignment is presentable enough, he is willing to think creatively and figure out a solution to make our assignment meet the expected standards. Being in this hardworking group has made me excited to make sure that I am producing the highest quality work that I can, and to also practice efficient communication with my teammates. Throughout this semester, it has been exciting to see how efficiently our group can work while still producing high quality deliverables."
+"Drow, Evan","301",""
+"Grant, Heyboer","301",""
+"Kyle, Bruursema","301",""
+"Mills, Jacob","301",""
+"Tim, Kramer","301",""
+"Cal, McNabb","302","This team has been an absolute blast to work on!  All of us work very well together in and out of the classroom.  I gave everyone similarly high marks because I believe everyone in the group is an excellent worker and I think it shows in our assignment grades.  Hunter Bondy was given extra high because he has just been amazing these last few weeks by taking on the largest portion of the coding and software work.  Not only that but he has delivered work that is far above the requirements, this excellency combined with our group&#39;s ability to work well together and high standards has led to us finishing projects well before due dates.  Everyone on the team is an awesome engineer and I am very glad to have met them and I look forward to finishing out the semester on their team!"
+"Dom, Bianchi","302","Hunter and Ted are both exceptional members of this team. Both of them are absolutely incredible and go above and beyond in terms of work. I am beyond happy with this group, everyone does a great job and it shows as we are well ahead of most of the class and we always do well on the assignments. "
+"Hunter, Bondy","302",""
+"Jacob, Weide","302","Overall, I feel as though Ted and Hunter have gone above and beyond the call of duty to get work done on the project. Dom, Cal, and Parker have also done great jobs working on the presentations of our work. I feel as though I have not done as much for the team as my teammates but I also was out for two weeks with Covid so they kind of picked up the slack."
+"Parker, Luce","302","I think our team works very well together, and because of our good team chemistry, I think we are able to create very satisfactory work."
+"Ted, Gronda","302","(This response was written on November 6th, 2021 - Ted Gronda this response is being recorded in a seperate file to serve as proof of my explainations for teammate ratings of equal value)----------------------------------------------- Parker Luce: Parker has been a great team player in this course, he has taken up the role of team leader and helps direct and guide group discussions in class. Partially this was due to his being chosen as the team lead at random by the instructor, but he truly filled this role well, and he took up the challenge to take on the responsibility of team lead. ........... Jacob Weide: Jacob is a team player and he contributes greatly to our teams discussions and brainstorming sessions in class. He provides insights and ideas into the challenges we are working on as a team, and his feedback and keen eye for catching possible errors in our reports has been indespencible. His contribution to our team definitely warrents his ratting as it has been marked in this survey. .......... Hunter Bondy: Hunter has been a valuable asset to our team. Particulary in his high performance when it comes to the MV and AMESIM software. Earlier on Hunter took up the responsibility to facilitate our teams code in MV and AMESIM, and although we all wrote our own codes, we entrusted Hunter with being the main facilitator of organizing the code. This was necessary, as we quickly learned that it would be hard to have multiple people writing inside the code base without causing errors. For this reason Hunter has been the primary keeper of our code base, and he has done a great job at it!.......Dom Bianchi: Dom has been a great member of our team, primarily he has taken on the role of leader much like Parker, and together then help steer team discussions and task focus during class time. Dom excells in report writing, formating of professional communications, and making sure we meet all the requirements for our team assignments. His insights into mechanical design and engineering models is also highly beneficial to our team. His rating inside this survey is warranted, and he has contributed greatly to our teams success. ..........Cal McNabb: Cal has been an indispensable member of our team for two primary reasons, first, he brings a great level of interest and energy to the team. He maintains a positive attitude among all team members and he makes sure we start and end each class session on a positive note. He encourages high performance among all team members and strives to achieve above average results in the work we do. He does this while encouraging all members to achieve their best work possible; and he does so without putting team members down. Cals enthusiasm and positive attitude has greatly impacted our teams success during this course so far, and his contribution to our team has been great. His rating is warranted in the survey. ....... Ted Gronda: I have contributed in the areas of mechanical design, team member participation, and team report writing. Ive been the main contributor to our teams mechanical design of the APD system and have a significant amount of the CAD design. I have tried to stay ahead on team assignments, and help guide our team towards writing quality reports. During the semester I have built templates for our team that outline what the reports need.  These templates have helped our team write the reports quickly and easily in prior team assignments. The templates I made took time to write, and I did this out of personal motivation without being asked by the team. Ive also tried my best to be a team player and my ultimate goal is to perform well in the team final presentation. I believe my rating in this survey is justified. I have put significant time and effort into this course, and believe my rating is justified.(This response was written on November 6th, 2021 - Ted Gronda this response is being recorded in a seperate file to serve as proof of my explainations for teammate ratings of equal value)"
+"Blake, Soper","303","There have been a few issues allocating work around the group, and seeing results from teammates. Overall, the product of our work is still very good and I am satisfied with the outcomes."
+"Brandon, Wavrunek","303","I feel this team has a good balance between individuals doing work and doing work when together as a team.  By this I mean, when we are together, we work well to distribute the work to members who either are proficient in the area or have volunteered to take on the task.  This is possible because of the communication between the team members to help each other understand the material and the common goal.  I also feel I am the one to engage the conversation to get the team thinking about the upcoming project and keeping them proactive so we do not fall behind.  Some members of the team may not expect the same quality of work or have the same attention to detail as me. 
+ This can be seen in our &quot;initial sets of electro-mechanical methods&quot; assignments where the project was submitted without correct file naming convention.  I do not mention any names because in reality it is on everybody to double check the final product, not just the person responsible for submission. 
+ Besides this mistake, I feel our team has worked well to help each other overcome some of the challenges associated with learning software in this course. This can be seen where me and rest of members helped Thomas and Blake troubleshoot and develop both simulation models.  Then, we helped Jarett to understand the model so he could confidently create the design review 1 video of our design.  Overall, all team members are providing satisfactory contribution and are playing a valuable role in keeping this team fairly successful.  "
+"Gavin, Sheffer","303","None"
+"Jarett, Gundersen","303",""
+"Ryan, Mahoney","303",""
+"Thomas, Draper","303","Blake and I do the majority of the work for our team. We seem to be the only ones that will take initiative to get things done and even when I ask others to perform tasks, they don&#39;t seem to know what to do or where to go to get information. Granted we haven&#39;t done much to address these issues. "
+"Abbott, Griffin","304",""
+"Daavettila, Andrew","304",""
+"Derek, Thompson","304",""
+"Jenna, Johnson","304","My team works very well together. We have reached the point in the semester where we each know what roles we play. We assign tasks based on our strengths. We all have good attitudes and are open to each other&#39;s ideas. 
+
+Some team members put forth more effort than others and I believe it is due to a communication error. We will work on this and improve our communication throughout the end of the semester. 
+"
+"Kathryn, Seward","304",""
+"Nate, Learman","304","I feel that in this team Jenna and I do a majority of the work for our group assignments. I know that it is sometimes a struggle to divide the work evenly but it is more often than not Jenna and I doing most of it. Derek is also another member that helps to contribute a lot but he sometimes can&#39;t help because he is busy, which is understandable. Griffin, Kathryn, and Andrew don&#39;t seem to do a lot on most of the assignments. Griffin will be in charge of one part and that is all he will do. Kathryn always seems to want to help but ends up not doing as much as she should. She has said once or twice she will do a part and right before we have to turn it in someone else has to do it because she didn&#39;t get it done. Andrew doesn&#39;t seem to do much at all, he contributes minimally for every assignment so far but he does seem capable of doing what&#39;s required."
+"Emma, King","305","I feel like my team works very well together. We are able to communicate freely and get work done on time. We all seem to get along very well and we are able to discuss any concerns with the group when needed."
+"Hunter, McGuire","305","Despite the warnings not to rate my team highly straight across the board, it is the only rating I feel is appropriate. From my perspective, we&#39;ve done excellent work more than meeting expectations. Everyone is present and involved in lectures and practical sessions. Individually:
+
+Megan and Emma do great work ensuring we follow the rubric during reports and submissions. By the time the project is done, I never have to ask about the report, because they have it already outline as much as possible; while still not neglecting their main work.
+
+Tyler, Nolan, and Trevor have also contributed a ton to the success of the team. When projects are due, or we face troubleshooting problems, they are all very quick to respond to questions and help fix any issues. They&#39;re all active participants in the groups success, especially during the AMESim section."
+"Megan, Mahoney","305","Nolan and Hunter stand out when considering their contributions to the team&#39;s work. They both have made large contributions to team reports recently and help other members. Tyler, Trevor, Emma, and myself all do a good amount of the group work, complete the assigned tasks on time and help anyone struggling. Hunter and Trevor stand out when considering how they interact with other teammates. They both reach out for more ideas and give encouragement to the team. Nolan, Emma, Tyler, and myself all participate in team activities, provide and request feedback, and provide encouragement to the team. Overall the entire team interacts very well with each other. Tyler, Trevor, and Emma all work to notice problems that would effect the team, provides constructive feedback, and find changes to influence the teams success. Hunter and Nolan stand out as they have often been found to monitor the teams progress and give others constructive feedback. I gave myself, Nolan, Hunter, and Trevor a high regard to expecting quality because I have found that all of us motivate the team to complete excellent work and we all care the team submits great work that we are all capable of completing. Tyler and Emma also have done a great job at encouraging the team to meet all of the requirements  and supporting the team to reach all of the set responsibilities. The whole team has demonstrated a great understanding of the software we have used so far and each of us can help each other to solve errors in Motion View. Hunter and Trevor have been great in the recent weeks to acquire new skills to improve the teams progress on finishing projects. Overall, this team has worked very well together, I have not found any member to be uninvolved or not engaged thus far. "
+"Nolan, Davis","305","The only thing where my team was given similar ratings was the one about caring about quality of work. Everyone cares that our work gets done on time and in a fashion that represents a quality that the professor expects. "
+"Radavich, Tyler","305","I really enjoy the projects that we are presented with in this class and having the groups to work on these projects with makes them a valuable learning experience for everyone"
+"Trevor, Maizland","305",""
+"Clabuesch, Kirk","306",""
+"Frank, Bruck","306","None"
+"Galia, Miskevich","306",""
+"Kamila, Staniszewski","306",""
+"Robert, Eakright","306","N/A"
+"Troy, Gietek","306","Most of the team works very well together. We get the work done by the due date and it is generally high quality work. I do feel like I do a lot more work then I should have to do working in a team of this size, but I can be partially to blame for this because I am a bit of a control freak. 
+Kirk on the other hand rarely shows up to class and doesn&#39;t correspond with the team whatsoever. We rarely hear from him and I don&#39;t think he has done anything on any group assignment yet this semester. I keep holding out hope that maybe he will step up, but he never does. The group probably should not have let his absence go unnoticed for so long because he has essentially coasted through the class without doing any work. We don&#39;t have any ideas of his skill set when it comes to class knowledge so the group is not willing to trust him with any sort of work at this point simply out of fear it won&#39;t get done. Something may need to be done outside of the group to get this all figured out. "
+"Beal, Mason","307","None"
+"Chris, Wozniak","307","Duncan and Eric are two great teammates. We have been able to work on projects and assignments together, every time we set up a meeting with the team it is highly likely that the three of us are there and no one else, Gio is usually busy with work and puts in time when he can which is appreciated.
+
+After the AMEsim models and when the class changed to remote lecture Mason has barely responded. He has not helped with deliverables since, Tighe also does not get to meetings and they both don&#39;t try to be part of the team. If the main three didn&#39;t work on an assignment and turn them in, then these two wouldn&#39;t even know if we did not turn it in on time. 
+
+Luckily Eric, Duncan, Gio (when he can) and I have the skills necessary and use the time outside of class to collaborate and to get the deliverables done and understand what we are working on. 
+
+It is sometimes frustrating when you want to get an outside perspective or another thought that could potentially change the course of a project depending on the idea, but when the people that don&#39;t want to be educated and just see this as a &quot;stupid&quot; class miss out on helping develop the team. At the beginning of the year picking what we were going to work on an how was difficult. I would give an idea just to get everyone thinking and collaborating but would hear responses like, &#39; yea lets just do that&quot;. 
+
+I&#39;m lucky to be working on AMEsim and MotionView to understand them at the capacity that I can but I am missing out on a larger team dynamic. I have my flaws such as spending to much time getting no where with MotionView or procrastinating sometimes, but I try my best to not hinder the team because of my flaws. 
+
+The main three can finish this semester just fine, we work really well together and are always trying to better each other. We use our strengths to speed up data analysis and get the reports to look professional. We will do just fine, but I would like to see more effort from the other guys. Other than that no complaints :)"
+"Duncan, MacConnell","307","I am pleased with half of this team and annoyed with the remaining group. From my evaluation it is most likely clear who does and doesn&#39;t contribute to assignments. Eric, Chris, and I are forced to pick up the slack for those who don&#39;t contribute and overall Giovanni, Mason, and Tighe don&#39;t communicate with us and when they do it&#39;s generally excuses to not work."
+"Gencheff, Eric","307","I try to do my fair share of work. Sometimes work can be difficult to distribute as a lot of the tasks this semester can&#39;t really be broken up into very small chunks. For example, only one person can work on a Motionview model at a time. This resulted in different models being developed and work being re-done by those that decided to work. Chris typically took lead on the larger work chunks, then Duncan, Giovanni, and I tried to pick up the rest of the work. 
+
+Chris by far does most of the work in this group. It is likely that most assignments would not get done without Chris&#39; contributions.
+
+Duncan does an adequate amount. He communicates when he has extra work with his enterprise as to why he needs to be absent for some things.
+
+Giovanni does contribute some. If everyone did at least some work like Giovanni, there wouldn&#39;t be problems. However, work is never distributed equally.
+
+Mason did contribute fairly in the beginning of the semester, but now he hasn&#39;t done any group work. He only responds to group messages when he isn&#39;t going to be at a group event, typically last minute.
+
+Tighe rarely (1-2 times) made it to any classes before instruction went remote. The amount of work that he has done for this group is about zero. Tighe has made it to a couple of group meetings, but doesn&#39;t do work while he&#39;s there. I documented how Tighe wasn&#39;t contributing in the first Peer Evaluation. One notable time I was frustrated with Tighe was when Chris and I were working in the library late on a group assignment (Duncan was there as well working remotely due to coming into contact with someone who tested positive for covid), and we saw that Tighe was streaming on Twitch (a streaming social media site) instead of helping with the assignment. "
+"Giovanni, VanDyke","307","None"
+"Pepera, Tighe","307",""
+"Abby, Woodford","308",""
+"Atlas, Rosenburg","308",""
+"Daavettila, Russell","308","At this time in the semester I think my team and I are working great together, everyone is completing their work."
+"Mandy, Lepak","308","Sean is a great contributor to the team and goes above and beyond in his work and effort. Atlas also contributes good ideas and skills to the team. Abby works hard to learn things the team may need to be successful. Max gives a lot of input but is not as skilled in the software. Russell also observes and tries to learn but is not as skilled in the software and doesn&#39;t contribute as much."
+"Max, Knoerl","308",""
+"Paycee, Assenmacher","308",""
+"Sean, Munro","308",""
+"Ditmore, Will","309",""
+"Jimmy, Duer","309",""
+"Kate, Bridges","309",""
+"Popovitz, Cyrus","309","This has probably been the best team I&#39;ve worked with during my college time."
+"Vellequette, Sam","309","These guys are great
+we know each others skills relatively accurately so we can fill in the gaps in each others knowledge
+not a dynamic you actually see everyday, its almost strikingly too ideal, might be jinxing it idk "
+"Wurtz, Cynthia","309",""
+"Dusten, Gonzalez","310","We kind of just do our own thing and break off into little groups for assignments, then come back together to share ideas/progress towards the goal. There isn&#39;t a whole lot of communication outside of the classroom per se, but, the communication that does happen is excellent and greatly contributes toward the task at hand."
+"Hollenbeck, Kiah","310",""
+"James, Behrens","310","I am pretty sure that Tyler Hooyman dropped the course because we have never seen him or been able to communicate with him. Our group currently has a divide and their isn&#39;t much communication the past few weeks. We only start to communicate shortly before a deliverable and this leaves us scrambling to get the work done. In addition, a few group members are not pulling their weight in my opinion. "
+"Miller, Nathan","310",""
+"Ruuska, Charles","310",""
+"Tyler, Hooyman","310",""
+"Byun, Misong","311",""
+"Kyle, Watkins","311","Nothing much to say"
+"Leah, Smith","311",""
+"Mason, Kennedy","311","I have done the most for our group. I did the Amesim model and HyperWorks for our group. Nick has been helpful with assisting me in the HyperWorks when I get stuck and getting the documents set-up for team submissions. Olivia has done the most with setting up documents for team submissions. Leah has helped with tweaking the Amesim model and plotting the Amesim and MotionView data. Kyle and Misong have done the least out of everyone and have minimum contributions to the team. Misong did helped a little bit with the MotionView at the beginning and Kyle tried to help with the Amesim."
+"Nick, Drechsler","311","Mason Kennedy
+I am very satisfied with having Mason as a teammate. Mason is extremely tech-savvy. He is very smart and naturally talented in engineering. He often takes the lead on heavier software-based projects. He is great to be around and always keeps track of team deadlines.
+
+Kyle Watkins
+Kyle does a great job of helping the team troubleshoot. He is very good about asking what he can help with but sometimes lacks the initiative to spearhead tasks for the team. He is fun to be around and makes a good teammate.
+
+Leah Smith
+Leah is great at Matlab. Her skills always come in handy. She does her fair share of work. She works very well independently. Often she kind of leaves the team and works in her own world. This can make communication hard at times, but overall, she is a great teammate to have.
+
+Olivia Wery
+Olivia is a great teammate. She is naturally gifted at formating and setting up documents and reports. She is also great at technical writing. She contributes fairly to the team. Sometimes she gets distracted doing her own individual work, but it does not significantly hamper the team. She is also very tech-savvy and handles the software very well.
+
+Misong Byun
+Mison is a great teammate. She works well with AMEsim and contributes a fair amount to the team. She is a good communicator and mediator in team discussions. She does a great job looking out for team deadlines and managing work. I am glad to have Misong on my team."
+"Olivia, Wery","311",""
+"Ethan, Gutzeit","312","N/A"
+"Jake, Holwerda","312","Ryan
+Showed great amount of skills working with MotionView and AMEsim. Ryan&#39;s knowledge and skill with the softwares were used to create our models throughout the semester that functioned with great accuracy. Additionally, Ryan helped me when I was struggling tweaking some parameters on a Rack and pinion AMEsim model. 
+
+Ethan
+Great communicator in the group. Showed up to every group meeting to complete our projects and always knew what steps the group needed to make moving forward. Ethan also did a great job creating plots utilizing matlab as well as organizing slides for our submissions.
+
+Max
+Exceptional work with AMEsim and MotionView models. Max planned far ahead of time on our projects to ensure we had everything completed days before the submission deadline. Max also went far out of his way to meet with TA&#39;s and our instructor to ask questions we had during practice sessions. 
+
+Joe
+Provided great knowledge of the systems we were working with. Resolved questions of how the model should be running and possible areas of concern we would have with them moving forward. Assisted the group in trouble shooting errors with our simulations that would come up from time to time and always was available to help in case we needed it. 
+
+As a team
+Some team members excelled in certain areas over others. While some group members exceled creating functional simulations, others were involved in communicating the data through slides and organizing the information in a professional delivery. Everyone took on their own role in the group and we all worked together to deliver a final submission that reflected our best effort. I do not believe that any one person had too much of a work load on their plate and when their was, any given group member was happy to assist them. "
+"Joe, Remschak","312",""
+"Max, Qian","312","N/A"
+"Westphal, Ryan","312","Wish you were in lectures and labs :)"
+
+'Student Peer Comments'
+
+"Student","'Comment For'","Team","Comment"
