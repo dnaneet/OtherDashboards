@@ -106,8 +106,4 @@ if selection == "Grade distribution":
   ts =  st.slider('Select threshold final score:', max_value = 100, min_value=0)
 
   st.markdown("#### Total students in the selected semester:")
-  #total_students_this_sem = df[(df['Semester'] == sem)['Final Score'].count().compute()
-  df_temp = pd.DataFrame({'Final Score': df[df['Semester'] == sem]['Final Score'].compute(), 'Threshold met':df[df['Semester'] == sem]['Final Score'].compute()>=ts })
-  #st.table(df_temp)	
-  total =  df[df['Semester'] == sem]['Final Score'].count().compute()
-  st.write(total)
+  st.write(df[(df['Semester'] == sem)['Final Score'].count().compute())
