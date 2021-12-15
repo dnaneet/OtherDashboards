@@ -3,5 +3,3 @@ numpy
 streamlit
 plotly
 nltk
-spacy
-en_core_web_sm

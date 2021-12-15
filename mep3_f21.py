@@ -7,12 +7,12 @@ import nltk # https://www.nltk.org/install.html
 from nltk.tokenize import word_tokenize
 from nltk.text import Text
 
-import spacy
-from spacy import displacy
-from collections import Counter
-import en_core_web_sm
-nlp = en_core_web_sm.load()
-from pprint import pprint
+#import spacy
+#from spacy import displacy
+#from collections import Counter
+#import en_core_web_sm
+#nlp = en_core_web_sm.load()
+#from pprint import pprint
 
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from textblob import TextBlob
