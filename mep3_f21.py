@@ -70,8 +70,7 @@ if selection == "Feedback from students":
      - 5-6 member design teams (instead of 3-4 member teams).
      - Two design reviews with DR-1 providing intermediate feedback on your design(instead of a single final presentation).
     '''
-
-    st.table(df["comments"])
+    st.dataframe(df)
 
 if selection == "Grade distribution":
     st.markdown("TBA")    
