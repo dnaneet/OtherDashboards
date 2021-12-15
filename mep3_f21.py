@@ -31,6 +31,7 @@ st.set_page_config(
      #layout="wide"
 )
 selection = st.sidebar.radio('Select ', ["Summary", "Feedback from students", "Grade distribution"])
+st.sidebar.markdown("This dashboard was created using Python and Streamlit by Aneet Narendranath, PhD.")
 
 
 # Import CSV file of responses.
