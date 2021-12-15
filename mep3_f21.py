@@ -73,6 +73,10 @@ if selection == "Feedback from students":
      - Two design reviews with DR-1 providing intermediate feedback on your design(instead of a single final presentation).
     '''
 
+    with st.expander("Evaluation scores: how useful these elements were for student preparation:")
+      df_scores = pd.read_csv("surve_scores.csv")
+      st.table(df_scores)
+
     with st.expander("Written comments"):
       st.markdown("47 out of 141 students completed the survey but only 20 out of these 47 provided written comments.  These written comments had their sentiment analysed using Machine Learning functions.  A sentiment value of +1 is 'highly positive' while a sentiment value of -1 is 'highly negative'.")
       #df2 = pd.DataFrame(
