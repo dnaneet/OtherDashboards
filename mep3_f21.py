@@ -102,11 +102,14 @@ if selection == "Grade distribution":
   st.write(" ")  
   sem = st.selectbox('Select semester of interest:', ['Fall 2017', 'Spring 2018', 'Fall 2018', 'Spring 2019', 'Fall 2019', 'Fall 2020', 'Spring 2021', 'Fall 2021'])
   ts =  st.slider('Select threshold final score:', max_value = 100, min_value=0)
-
   df_grades = pd.read_csv("all_grades.csv")
-  st.write(sem)
-  st.write("Number of students enrolled", df_grades[df_grades["Semester"] == sem]["Semester"].count())
+
+  col1, col2, col3 = st.columns(3)
+  with col1:  
+    st.write("Number of students enrolled", df_grades[df_grades["Semester"] == sem]["Semester"].count())
   #NumStudentsGreaterThanTS = df_grades[(df_grades["Semester"] == sem) && (df_grades["Final Score"] > ts)]
   #st.write("Percentage of students who received more than the threshold score:", np.round(100*NumStudentsGreaterThanTS/df_grades[df_grades["Semester"] == sem]["Semester"].count()))
-  st.write("Number of students who had a final score greater than the selected threshold:", df_grades[(df_grades["Semester"] == sem) & (df_grades["Final Score"] > ts)]["Final Score"].count())
-  st.write("Number of 'F' grades:", df_grades[(df_grades["Semester"] == sem) & (df_grades["Final Grade"] == "F")]["Final Grade"].count())
+  with col2:
+    st.write("Number of students who had a final score greater than the selected threshold:", df_grades[(df_grades["Semester"] == sem) & (df_grades["Final Score"] > ts)]["Final Score"].count())
+  with col3:
+    st.write("Number of 'F' grades:", df_grades[(df_grades["Semester"] == sem) & (df_grades["Final Grade"] == "F")]["Final Grade"].count())
