@@ -17,16 +17,7 @@ from pprint import pprint
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from textblob import TextBlob
 
-nltk.download([
-...     "names",
-...     "stopwords",
-...     "state_union",
-...     "twitter_samples",
-...     "movie_reviews",
-...     "averaged_perceptron_tagger",
-...     "vader_lexicon",
-...     "punkt",
-... ])
+nltk.download([ "names", "stopwords", "state_union", "twitter_samples", "movie_reviews", "averaged_perceptron_tagger", "vader_lexicon", "punkt"])
 nltk.download('maxent_ne_chunker')
 nltk.download('words')
 stopwords = nltk.corpus.stopwords.words("english")
@@ -61,7 +52,8 @@ for row in comments['comments']:
 
 
 if selection == "Summary":
-    st.markdown("TBA")
+    st.markdown("## Greater focus on collaboration")
+    st.markdown("I modified MEP3 to have a greater focus on collaboratively-created/team-created works products.  Individual assignments have formative assessment with multiple possible attempts, and feedback while team assignments have used summative assessment (Bain, 2020). Students have engaged with course content and tested their software skills via individual assignments.  Team assignments relied on individually developed skills.  This approach ensured that the focus was on "teamwork." The formative-assessment nature of individual assignments allowed me (instructor) to engage students in constructive dialogue rather than arguments ('where/why did I 'lose' points?').")
 if selection == "Feedback from students":
     st.markdown("TBA")
 if selection == "Grade distribution":
