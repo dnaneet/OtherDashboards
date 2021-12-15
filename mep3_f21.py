@@ -108,4 +108,5 @@ if selection == "Grade distribution":
   st.write("Number of students enrolled", df_grades[df_grades["Semester"] == sem]["Semester"].count())
   #NumStudentsGreaterThanTS = df_grades[(df_grades["Semester"] == sem) && (df_grades["Final Score"] > ts)]
   #st.write("Percentage of students who received more than the threshold score:", np.round(100*NumStudentsGreaterThanTS/df_grades[df_grades["Semester"] == sem]["Semester"].count()))
-  st.write(df_grades[(df_grades["Semester"] == sem) & (df_grades["Final Score"] > ts)]["Final Score"].count())
+  st.write("Number of students who had a final score greater than the selected threshold:", df_grades[(df_grades["Semester"] == sem) & (df_grades["Final Score"] > ts)]["Final Score"].count())
+  st.write("Number of 'F' grades:", df_grades[(df_grades["Semester"] == sem) & (df_grades["Final Grade"] == "F")]["Final Grade"].count())
