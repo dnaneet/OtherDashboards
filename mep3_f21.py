@@ -88,7 +88,7 @@ if selection == "Feedback from students":
       i_subjectivity = np.append(i_subjectivity, blob.subjectivity)
 
     df["Sentiment of comment"] = i_polarity
-    st.table(df[df["comments"] != 0][["comments", "Sentiment of comment"]])       
+    st.table(df[df["comments"] != 0]["Sentiment of comment"])       
 
 if selection == "Grade distribution":
     st.markdown("TBA")    
