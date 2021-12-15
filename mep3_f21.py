@@ -128,6 +128,9 @@ if selection == "Grade distribution":
     st.write("Number of 'F' grades:", df_grades[(df_grades["Semester"] == sem) & (df_grades["Final Grade"] == "F")]["Final Grade"].count())
 if selection == "Critical Incident Questionnaire data":
   st.markdown("### The Critical Incident Questionnaire (CIQ) data may be queried via this tab") 
+  st.markdown("Unlike the 'early-term survey' deployed through Canvas, the CIQ represents a weekly evolution of team dynamics, instead of a single data point collected in week-4. I used my prior experience with MEP3 and the CIQ data to recognize challenges and provided positive intervention to teams when needed.  This does not perfectly solve 'team problems' but allows me to preemptively allay them.  I speculate that high-functioning teams are the ones that voluntarily completed this survey.  If this were made mandatory, it would develop really good picture of team dynamics within a classroom ")
+  st.write("Brookfield, S. (1995). Becoming a critically reflective teacher / Stephen D. Brookfield. (1st ed., Jossey-Bass higher and adult education series). San Francisco: Jossey-Bass.")
+  st.markdown("---")
   df_ciq = pd.read_csv("ciq.csv")
   teams = np.unique(df_ciq["Enter Team Number (201, 202..... 301, 302....)"])
   team_selection = st.selectbox("Select team to read their CIQ entries:", teams)
