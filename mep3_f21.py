@@ -107,6 +107,3 @@ if selection == "Grade distribution":
 
   st.write(sem)
   df_grades[df_grades["Semester"] == sem]
-  #st.markdown("#### Total students in the selected semester:")
-  
-  #st.write(df[(df['Semester'] == sem)['Final Score'].count())
