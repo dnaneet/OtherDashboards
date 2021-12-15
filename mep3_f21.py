@@ -119,15 +119,4 @@ if selection == "Grade distribution":
     st.write(df[(df['Semester'] == sem) & (df['Final Score'] >= ts)]['Final Score'].count().compute())
   with col3:
     st.markdown("#### Percentage of students with final score >= threshold score:")
-    st.write(np.round(met_threshold*100/total,1))
-
-  st.markdown("#### Class average and standard deviation in the selected semester:")
-  st.write("(", np.round(df[df['Semester'] == sem]['Final Score'].mean().compute(),1), ",", np.round(df[df['Semester'] == sem]['Final Score'].std().compute(),1),")")
-
-
-
-st.markdown("#### Grade Distribution in selected semester")
-fig = px.histogram(df_temp['Final Score'])
-fig.update_xaxes(range=[0, 100])
-fig.update_yaxes(range = [0, df['Final Score'].max().compute() + 5])
-st.plotly_chart(fig)
+    st.write(np.round(met_threshold*100/total,1)) 
