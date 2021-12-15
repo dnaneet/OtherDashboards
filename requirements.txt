@@ -4,4 +4,4 @@ streamlit
 plotly
 nltk
 textblob
-dask.dataframe
+dask
