@@ -105,4 +105,4 @@ if selection == "Grade distribution":
 
   df_grades = pd.read_csv("all_grades.csv")
   st.write(sem)
-  #st.table(df_grades)
+  st.table(df_grades)
