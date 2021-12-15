@@ -105,4 +105,4 @@ if selection == "Grade distribution":
 
   df_grades = pd.read_csv("all_grades.csv")
   st.write(sem)
-  st.write("Number of students enrolled", df_grades[df_grades["Semester"] == sem].count())
+  st.write("Number of students enrolled", df_grades[df_grades["Semester"] == sem]["Semester"].count())
