@@ -105,4 +105,4 @@ if selection == "Grade distribution":
 
   df_grades = dd.read_csv('*_*.csv')
   st.write(sem)
-  df_grades
+  st.table(df_grades[df_grades["Semester"] == sem])
