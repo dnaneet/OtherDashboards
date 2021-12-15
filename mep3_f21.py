@@ -103,8 +103,8 @@ if selection == "Feedback from students":
       df_comments = pd.DataFrame({"Comment" : comments["comments"], "Sentiment of comment": i_polarity})
       st.table(df_comments)
 
-    with st.expander("test"):
-      st.markdown("## AAA")  
+    with st.expander("Survey scores -- how important these elements were as perceived byu students"):
+      df_scores = pd.read_csv("survey_scores.csv") 
 
 if selection == "Grade distribution":
   st.markdown('## MEP3 Historical Gradebook Dashboard')
