@@ -78,7 +78,7 @@ if selection == "Feedback from students":
     #st.table(df_scores)
 
     with st.expander("Written comments"):
-      st.markdown("47 out of 141 students completed the survey but only 20 out of these 47 provided written comments.  These written comments had their sentiment analysed using Machine Learning functions.  A sentiment value of +1 is 'highly positive' while a sentiment value of -1 is 'highly negative'.")
+      st.markdown("47 out of 141 students completed the survey but only 20 out of these 47 provided written comments.  These written comments had their sentiment analysed using [Natural Language processing](https://www.ibm.com/topics/natural-language-processing) functions of [TextBlob library](https://textblob.readthedocs.io/en/dev/).  A sentiment value of +1 is 'highly positive' while a sentiment value of -1 is 'highly negative'.")
       #df2 = pd.DataFrame(
       #np.random.randn(50, 20),
       #columns=('col %d' % i for i in range(20)))
