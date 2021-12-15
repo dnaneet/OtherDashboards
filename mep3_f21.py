@@ -127,5 +127,7 @@ if selection == "Grade distribution":
   with col3:
     st.write("Number of 'F' grades:", df_grades[(df_grades["Semester"] == sem) & (df_grades["Final Grade"] == "F")]["Final Grade"].count())
 if selection == "Critical Incident Questionnaire data":
-  st.markdown("## The Critical Incident Questionnaire (CIQ) data may be queried via this tab") 
-     
+  st.markdown("### The Critical Incident Questionnaire (CIQ) data may be queried via this tab") 
+  df_ciq = pd.read_csv("ciq.csv")
+  teams = np.unique(df_ciq["Enter Team Number (201, 202..... 301, 302....)"])
+  st.write(teams)
