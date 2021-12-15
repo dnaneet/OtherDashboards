@@ -31,7 +31,14 @@ nltk.download('maxent_ne_chunker')
 nltk.download('words')
 stopwords = nltk.corpus.stopwords.words("english")
 
-import streamlit as state_union
+import streamlit as st
+
+
+st.set_page_config(
+     page_title='MEP3 Dashboard Fall 2021'
+     #layout="wide"
+)
+selection = st.sidebar.radio('Select ', ["Summary", "Feedback from students", "Grade distribution"])
 
 
 # Import CSV file of responses.
@@ -51,4 +58,11 @@ for row in comments['comments']:
   i_polarity = np.append(i_polarity, blob.polarity)
   i_subjectivity = np.append(i_subjectivity, blob.subjectivity)
 
-  
+
+
+if selection == "Summary":
+    st.markdown("TBA")
+if selection == "Feedback from students":
+    st.markdown("TBA")
+if selection == "Grade distribution":
+    st.markdown("TBA")    
