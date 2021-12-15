@@ -61,9 +61,7 @@ if selection == "Summary":
     st.markdown("Students must attain a minimum threshold score (70%) on each MQ before being eligible for the next MQ. Two out of three MQs are complete. MEP3 focuses on Software for design. Time-limited examinations are not a good method for testing software skills. This is because problem-solving with software packages can have solution pathways (menu access, button clicks) that can vary from one person to another. The test should be focused on the accuracy of the solution and not on how quickly a student completes the muscle-mechanics of pressing buttons. Mastery quizzes allowed me to engage with students in constructive dialog.  These quizzes are not perpetually open but have an open and close date like any other assignment and source questions from Canvas question-banks to ensure variety.  These quizzes conform to some of the practices of  'universal design.'")
     st.markdown("### Critical Incident Questionnaire (CIQ)")
     st.markdown("I used a Critical Incident Questionnaire (CIQ) to monitor team activity and team dynamics.  The CIQ (Brookfield, 1995) 'seeks to capture the critical moments, experiences, or 'vivid happenings' that occur in a learning episode for the purpose of informing the class instructor or facilitator about how the learning experience is proceeding.'  The MEP3 CIQ was deployed via a Google form and was voluntary for teams to complete. The outcome was a weekly reflection of their activities by the teams, communicated to the instructor.   Unlike the 'early-term survey' deployed through Canvas, the CIQ represents a weekly evolution of team dynamics, instead of a single data point collected in week-4. I used my prior experience with MEP3 and the CIQ data to recognize challenges and provided positive intervention to teams when needed.  This does not perfectly solve 'team problems' but allows me to preemptively allay them.  I speculate that high-functioning teams are the ones that voluntarily completed this survey.  If this were made mandatory, it would develop really good picture of team dynamics within a classroom.")
-if selection == "Feedback from students":
-    st.dataframe(df)
-    
+if selection == "Feedback from students":   
     st.markdown("## Feedback from students on the 4 new elements deployed")
     st.markdown("I requested feedback on the following 4 new assessment and teaming elements that I used in MEP3 this semester, via a single-question Google Form survey.")
     '''
@@ -72,7 +70,11 @@ if selection == "Feedback from students":
      - 5-6 member design teams (instead of 3-4 member teams).
      - Two design reviews with DR-1 providing intermediate feedback on your design(instead of a single final presentation).
     '''
-    
+    df2 = pd.DataFrame(
+    np.random.randn(50, 20),
+    columns=('col %d' % i for i in range(20)))
+
+    st.dataframe(df2)  # Same as st.write(df)
 
 if selection == "Grade distribution":
     st.markdown("TBA")    
