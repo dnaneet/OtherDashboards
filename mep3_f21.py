@@ -105,6 +105,7 @@ if selection == "Grade distribution":
   sem = st.selectbox('Select semester of interest:', ['Fall 2017', 'Spring 2018', 'Fall 2018', 'Spring 2019', 'Fall 2019', 'Fall 2020', 'Spring 2021', 'Fall 2021'])
   ts =  st.slider('Select threshold final score:', max_value = 100, min_value=0)
 
-  st.markdown("#### Total students in the selected semester:")
-  st.table(df[df["Semester"] == sem])
+  st.write(sem)
+  #st.markdown("#### Total students in the selected semester:")
+  
   #st.write(df[(df['Semester'] == sem)['Final Score'].count())
