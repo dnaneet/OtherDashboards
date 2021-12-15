@@ -33,12 +33,12 @@ selection = st.sidebar.radio('Select ', ["Summary", "Feedback from students", "G
 
 
 # Import CSV file of responses.
-df = pd.read_csv('responses.csv')
-df['comments'] = df['If you have any comments on your selection, please feel free to provide them through this text field.']
+#df = pd.read_csv('responses.csv')
+#df['comments'] = df['If you have any comments on your selection, please feel free to provide them through this text field.']
 
 #Fillna
-df['comments'] = df['comments'].fillna(0)
-comments = df[df['comments'] != 0]
+#df['comments'] = df['comments'].fillna(0)
+#comments = df[df['comments'] != 0]
 
 #Comment polarity and subjectivity calculation
 
@@ -70,11 +70,12 @@ if selection == "Feedback from students":
      - 5-6 member design teams (instead of 3-4 member teams).
      - Two design reviews with DR-1 providing intermediate feedback on your design(instead of a single final presentation).
     '''
-    df2 = pd.DataFrame(
-    np.random.randn(50, 20),
-    columns=('col %d' % i for i in range(20)))
-
-    st.dataframe(df2)  # Same as st.write(df)
+    #df2 = pd.DataFrame(
+    #np.random.randn(50, 20),
+    #columns=('col %d' % i for i in range(20)))
+    df = pd.read_csv('responses.csv')
+    df['comments'] = df['If you have any comments on your selection, please feel free to provide them through this text field.']
+    st.dataframe(df)  # Same as st.write(df)
 
 if selection == "Grade distribution":
     st.markdown("TBA")    
