@@ -78,6 +78,14 @@ if selection == "Feedback from students":
     df['comments'] = df['comments'].fillna(0)
     comments = df[df['comments'] != 0]
     st.table(df[df["comments"] != 0]["comments"])  # Same as st.write(df)
+    #Comment polarity and subjectivity calculation
+
+    i_polarity = np.array([])
+    i_subjectivity = np.array([])
+    for row in comments['comments']:
+      blob = TextBlob(row.lower())
+      i_polarity = np.append(i_polarity, blob.polarity)
+      i_subjectivity = np.append(i_subjectivity, blob.subjectivity)
 
 if selection == "Grade distribution":
     st.markdown("TBA")    
