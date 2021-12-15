@@ -73,7 +73,7 @@ if selection == "Feedback from students":
      - Two design reviews with DR-1 providing intermediate feedback on your design(instead of a single final presentation).
     '''
 
-    with st.expander("Evaluation scores: how useful these elements were for student preparation:")
+    with st.expander("Evaluation scores: how useful these elements were for student preparation:"):
       df_scores = pd.read_csv("surve_scores.csv")
       st.table(df_scores)
 
