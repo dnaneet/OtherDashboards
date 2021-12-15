@@ -100,12 +100,13 @@ if selection == "Grade distribution":
   st.markdown('## MEP3 Historical Gradebook Dashboard')
   st.write("This dashboard summarizes student grades in semesters when Dr. Narendranath was one of the instructors of MEP3.")
   st.write(" ")
-  df = dd.read_csv('*_*.csv')
+  df_grades = dd.read_csv('*_*.csv')
   
   sem = st.selectbox('Select semester of interest:', ['Fall 2017', 'Spring 2018', 'Fall 2018', 'Spring 2019', 'Fall 2019', 'Fall 2020', 'Spring 2021', 'Fall 2021'])
   ts =  st.slider('Select threshold final score:', max_value = 100, min_value=0)
 
   st.write(sem)
+  df_grades[df_grades["Semester"] == sem]
   #st.markdown("#### Total students in the selected semester:")
   
   #st.write(df[(df['Semester'] == sem)['Final Score'].count())
