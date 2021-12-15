@@ -72,30 +72,32 @@ if selection == "Feedback from students":
      - 5-6 member design teams (instead of 3-4 member teams).
      - Two design reviews with DR-1 providing intermediate feedback on your design(instead of a single final presentation).
     '''
-    st.markdown("48 out of 141 students completed the survey but only 20 out of these 48 provided written comments.  These written comments had their sentiment analysed using Machine Learning functions.  A sentiment value of +1 is 'highly positive' while a sentiment value of -1 is 'highly negative'.")
-    #df2 = pd.DataFrame(
-    #np.random.randn(50, 20),
-    #columns=('col %d' % i for i in range(20)))
-    df = pd.read_csv('responses.csv')
-    df['comments'] = df['If you have any comments on your selection, please feel free to provide them through this text field.']
-    df['comments'] = df['comments'].fillna(0)
-    comments = df[df['comments'] != 0]
-    #
-    #Comment polarity and subjectivity calculation
 
-    i_polarity = np.array([])
-    i_subjectivity = np.array([])
-    for row in comments['comments']:
-      blob = TextBlob(row.lower())
-      i_polarity = np.append(i_polarity, blob.polarity)
-      i_subjectivity = np.append(i_subjectivity, blob.subjectivity)
+    with st.expander("Written comments"):
+      st.markdown("47 out of 141 students completed the survey but only 20 out of these 47 provided written comments.  These written comments had their sentiment analysed using Machine Learning functions.  A sentiment value of +1 is 'highly positive' while a sentiment value of -1 is 'highly negative'.")
+      #df2 = pd.DataFrame(
+      #np.random.randn(50, 20),
+      #columns=('col %d' % i for i in range(20)))
+      df = pd.read_csv('responses.csv')
+      df['comments'] = df['If you have any comments on your selection, please feel free to provide them through this text field.']
+      df['comments'] = df['comments'].fillna(0)
+      comments = df[df['comments'] != 0]
+      #
+      #Comment polarity and subjectivity calculation
 
-    #df["Sentiment of comment"] = i_polarity
-    #st.table(df[df["comments"] != 0]["comments"])       
-    #st.write(i_polarity) 
-    st.markdown("### Survey results")
-    df_comments = pd.DataFrame({"Comment" : comments["comments"], "Sentiment of comment": i_polarity})
-    st.table(df_comments)
+      i_polarity = np.array([])
+      i_subjectivity = np.array([])
+      for row in comments['comments']:
+        blob = TextBlob(row.lower())
+        i_polarity = np.append(i_polarity, blob.polarity)
+        i_subjectivity = np.append(i_subjectivity, blob.subjectivity)
+
+      #df["Sentiment of comment"] = i_polarity
+      #st.table(df[df["comments"] != 0]["comments"])       
+      #st.write(i_polarity) 
+      st.markdown("### Survey results")
+      df_comments = pd.DataFrame({"Comment" : comments["comments"], "Sentiment of comment": i_polarity})
+      st.table(df_comments)
 
 if selection == "Grade distribution":
   st.markdown('## MEP3 Historical Gradebook Dashboard')
