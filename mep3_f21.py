@@ -75,7 +75,7 @@ if selection == "Feedback from students":
     #columns=('col %d' % i for i in range(20)))
     df = pd.read_csv('responses.csv')
     df['comments'] = df['If you have any comments on your selection, please feel free to provide them through this text field.']
-    st.table(df)  # Same as st.write(df)
+    st.table(df["comments"])  # Same as st.write(df)
 
 if selection == "Grade distribution":
     st.markdown("TBA")    
