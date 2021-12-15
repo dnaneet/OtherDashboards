@@ -110,7 +110,7 @@ if selection == "Feedback from students":
 
 if selection == "Grade distribution":
   st.markdown('## MEP3 Historical Gradebook Dashboard')
-  st.write("This dashboard summarizes student grades in semesters when Dr. Narendranath was one of the instructors of MEP3.")
+  st.write("This dashboard summarizes student grades in semesters when Aneet Narendranath was one of the instructors of MEP3.")
   st.write(" ")  
   st.markdown("Select a semester and set a threshold score.  The three columns below will return the enrollment, number of students with an overall score > selected threshold, and number of 'F's.")
   sem = st.selectbox('Select semester of interest:', ['Fall 2017', 'Spring 2018', 'Fall 2018', 'Spring 2019', 'Fall 2019', 'Fall 2020', 'Spring 2021', 'Fall 2021'])
