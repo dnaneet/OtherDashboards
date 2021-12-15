@@ -89,7 +89,9 @@ if selection == "Feedback from students":
 
     #df["Sentiment of comment"] = i_polarity
     #st.table(df[df["comments"] != 0]["comments"])       
-    st.write(i_polarity)
+    #st.write(i_polarity) 
+    df_comments = pd.DataFrame({"Comment" : comments["comments"]})
+    st.table(df_comments)
 
 if selection == "Grade distribution":
     st.markdown("TBA")    
