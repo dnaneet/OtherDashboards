@@ -132,3 +132,5 @@ if selection == "Critical Incident Questionnaire data":
   teams = np.unique(df_ciq["Enter Team Number (201, 202..... 301, 302....)"])
   team_selection = st.selectbox("Select team to read their CIQ entries:", teams)
   st.table(df_ciq[df_ciq["Enter Team Number (201, 202..... 301, 302....)"] == team_selection])
+
+#eof
