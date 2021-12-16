@@ -133,7 +133,7 @@ if selection == "Grade distribution":
     st.write("Number of 'F' grades:", df_grades[(df_grades["Semester"] == sem) & (df_grades["Final Grade"] == "F")]["Final Grade"].count())
   st.markdown("### Summary of grade distribution trends:")
   st.markdown("The number of 'F' grades has decreased from about ~15% of the class to less than ~5%, since 2017.  In fall 2021, there were '0' F grades.  In contrast to Fall 2017 which had '0' A grades, fall 2021 had 71% of students in the class receive an A grade.")  
-  st.markdown("#### Note on applicability of letter grades for a design course:")  
+  st.markdown("#### Note on applicability of letter grades:")  
   st.markdown("The instructor believes that letter grades are not the true indicator of students' achievement of learning goals.  Letter grades are one indicator.  Other multi-dimensional performance indicators must be developed to communicate student performance to all stakeholders.  These multi-dimensional indicators should not be sensitive to arbitrar 'lines in the sand' such as what letter grades are.")
 if selection == "Critical Incident Questionnaire data":
   st.markdown("### The Critical Incident Questionnaire (CIQ) data may be queried via this tab") 
