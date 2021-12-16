@@ -30,7 +30,7 @@ st.set_page_config(
      page_title='MEP3 Dashboard Fall 2021'
      #layout="wide"
 )
-selection = st.sidebar.radio('Select ', ["Summary", "Feedback from students", "Grade distribution", "Critical Incident Questionnaire data"])
+selection = st.sidebar.radio('Select ', ["Summary of changes", "Feedback from students", "Grade distribution", "Critical Incident Questionnaire data"])
 st.sidebar.markdown("This dashboard was created using Python and Streamlit by Aneet Narendranath, PhD.")
 
 
@@ -53,7 +53,7 @@ st.sidebar.markdown("This dashboard was created using Python and Streamlit by An
 
 
 
-if selection == "Summary":
+if selection == "Summary of changes":
     st.markdown("# MEP3 with a greater focus on student-collaboration") 
     st.markdown("I modified MEP3 to have a greater focus on collaboratively-created/team-created works products.  Individual assignments have formative assessment with multiple possible attempts, and feedback while team assignments have used summative assessment (Bain, 2020). Students have engaged with course content and tested their software skills via individual assignments.  Team assignments relied on individually developed skills.  This approach ensured that the focus was on 'teamwork.' The formative-assessment nature of individual assignments allowed me (instructor) to engage students in constructive dialogue rather than arguments ('where/why did I 'lose' points?'').")  
 
