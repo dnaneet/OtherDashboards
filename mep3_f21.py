@@ -31,31 +31,10 @@ st.set_page_config(
      #layout="wide"
 )
 selection = st.sidebar.radio('Select ', ["Summary of changes", "Feedback from students", "Grade distribution", "Critical Incident Questionnaire data"])
-st.sidebar.markdown("This dashboard was created using Python and Streamlit by Aneet Narendranath, PhD.")
-
-
-# Import CSV file of responses.
-#df = pd.read_csv('responses.csv')
-#df['comments'] = df['If you have any comments on your selection, please feel free to provide them through this text field.']
-
-#Fillna
-#df['comments'] = df['comments'].fillna(0)
-#comments = df[df['comments'] != 0]
-
-#Comment polarity and subjectivity calculation
-
-#i_polarity = np.array([])
-#i_subjectivity = np.array([])
-#for row in comments['comments']:
-#  blob = TextBlob(row.lower())
-#  i_polarity = np.append(i_polarity, blob.polarity)
-#  i_subjectivity = np.append(i_subjectivity, blob.subjectivity)
-
-
 
 if selection == "Summary of changes":
     st.markdown("# MEP3 with a greater focus on student-collaboration") 
-    st.markdown("I modified MEP3 to have a greater focus on collaboratively-created/team-created works products.  Four learning support elements were included.")  
+    st.markdown("I modified MEP3 to have a greater focus on collaboratively-created/team-created works products.  The following **four learning support elements** were included.")  
 
 
     st.markdown("### 1. Unlimited attempts on individual quizzes")
