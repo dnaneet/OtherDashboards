@@ -131,8 +131,10 @@ if selection == "Grade distribution":
     st.write("Number of students who had a final score greater than the selected threshold:", df_grades[(df_grades["Semester"] == sem) & (df_grades["Final Score"] > ts)]["Final Score"].count())
   with col3:
     st.write("Number of 'F' grades:", df_grades[(df_grades["Semester"] == sem) & (df_grades["Final Grade"] == "F")]["Final Grade"].count())
-
-  st.markdown("#### A key observation is that the number of 'F' grades has decreased from about ~15% of the class to less than ~5%, since 2017.")  
+  st.markdowno("### Summary of grade distribution trends:")
+  st.markdown("The number of 'F' grades has decreased from about ~15% of the class to less than ~5%, since 2017.  In fall 2021, there were '0' F grades.  In contrast to Fall 2017 which had '0' A grades, fall 2021 had 71% of students in the class receive an A grade.")
+  st.markdown("#### Note on applicability of letter grades for a design course:")  
+  st.markdown("The instructor believes that letter grades are not the true indicator of students' achievement of learning goals.  Letter grades are one indicator.  Other multi-dimensional performance indicators must be developed to communicate student performance to all stakeholders.  These multi-dimensional indicators should not be sensitive to arbitrar 'lines in the sand' such as what letter grades are.")
 if selection == "Critical Incident Questionnaire data":
   st.markdown("### The Critical Incident Questionnaire (CIQ) data may be queried via this tab") 
   st.markdown("Unlike the 'early-term survey' deployed through Canvas, the CIQ represents a weekly evolution of team dynamics, instead of a single data point collected in week-4. I used my prior experience with MEP3 and the CIQ data to recognize challenges and provided positive intervention to teams when needed.  This does not perfectly solve 'team problems' but allows me to preemptively allay them.  I speculate that high-functioning teams are the ones that voluntarily completed this survey.  If this were made mandatory, it would develop really good picture of team dynamics within a classroom ")
