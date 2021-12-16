@@ -56,9 +56,9 @@ st.sidebar.markdown("This dashboard was created using Python and Streamlit by An
 if selection == "Summary":
     st.markdown("# MEP3 with a greater focus on student-collaboration") 
     st.markdown("I modified MEP3 to have a greater focus on collaboratively-created/team-created works products.  Individual assignments have formative assessment with multiple possible attempts, and feedback while team assignments have used summative assessment (Bain, 2020). Students have engaged with course content and tested their software skills via individual assignments.  Team assignments relied on individually developed skills.  This approach ensured that the focus was on 'teamwork.' The formative-assessment nature of individual assignments allowed me (instructor) to engage students in constructive dialogue rather than arguments ('where/why did I 'lose' points?'').")  
-    
+
     st.markdown("###  Design Review") 
-    st.markdown("Two design reviews (DR1, DR2) were conducted. The first design review was conducted in week-6 and its objective was to provide teams with critical feedback on their 1-D models which form the platform for 3-D models and critical component design. During DR-1, teams delivered a 2-minute presentation and demonstration of their models and conformation to engineering standards and codes.   The second design review was conducted in week-13.  Teams delivered a 8 minute presentation of all their results as a digital poster and is a culmination of teams' collaborative work.")
+    st.markdown("Two design reviews (DR1, DR2) were conducted. The first design review was conducted in week-6 and its objective was to provide teams with critical feedback on their 1-D models which form the platform for 3-D models and critical component design. During DR-1, teams delivered a 2-minute presentation and demonstration of their models and conformation to engineering standards and codes.   The second design review was conducted in week-13.  Teams delivered a 8 minute presentation of all their results as a digital poster.  DR-2 is a culmination of teams' collaborative work.")
     st.markdown("Media samples submitted by teams towards their Design Review are available on request.")
 
     st.markdown("### Mastery Quizzes")
@@ -68,7 +68,7 @@ if selection == "Summary":
     st.markdown("I used a Critical Incident Questionnaire (CIQ) to monitor team activity and team dynamics.  The CIQ (Brookfield, 1995) 'seeks to capture the critical moments, experiences, or 'vivid happenings' that occur in a learning episode for the purpose of informing the class instructor or facilitator about how the learning experience is proceeding.'  The MEP3 CIQ was deployed via a Google form and was voluntary for teams to complete. The outcome was a weekly reflection of their activities by the teams, communicated to the instructor.   Unlike the 'early-term survey' deployed through Canvas, the CIQ represents a weekly evolution of team dynamics, instead of a single data point collected in week-4. I used my prior experience with MEP3 and the CIQ data to recognize challenges and provided positive intervention to teams when needed.  This does not perfectly solve 'team problems' but allows me to preemptively allay them.  I speculate that high-functioning teams are the ones that voluntarily completed this survey.  If this were made mandatory, it would develop really good picture of team dynamics within a classroom.")
 if selection == "Feedback from students":   
     st.markdown("## Feedback from students on the 4 new elements deployed")
-    st.markdown("I requested feedback on the following 4 new learning support elements that I used in MEP3 this semester, via a single-question Google Form survey.  The question on the survey asked students to rate the importance of the following four elements in ensuring they were productive members of their design team.  The rating scale was 1 thru 5 with 1 = not important while 5 = extremel important.")
+    st.markdown("I requested feedback on the following 4 new learning support elements that I used in MEP3 this semester, via a single-question Google Form survey.  The question on the survey asked students to rate the importance of the following four elements in ensuring they were productive members of their design team.  The rating scale was 1 thru 5 with 1 = not important while 5 = extremely important.")
     '''
      - Unlimited attempts on quizzes (instead of the traditional “single attempt”).
      - Mastery Quizzes (instead of traditional timed exams).
@@ -80,7 +80,8 @@ if selection == "Feedback from students":
     #df_scores = pd.read_csv("surve_scores.csv")
     #st.table(df_scores)
 
-    st.markdown("### to summarize the feedback: ")
+    st.markdown("#### Summary of feedback received:")
+    st.markdown("37/47 respondents scored 'unlimited attempts on quizzes' and 'Mastery Quizzes' 5/5. 28 out of 47 respondents scored 'Two design reviews' 5/5 while 22 out of 47 respondents scored '5-6 member teams' 5/5. Verbal comments received by students were positive for elements 1 and 2 and less positive to negative for element 3.  The instructor' reflection from interacting with students is that students lack the maturity to plan their work thereby using all 5-6 resources on their team.")
 
     with st.expander("Written comments"):
       st.markdown("47 out of 141 students completed the survey but only 20 out of these 47 provided written comments.  These written comments had their sentiment analysed using [Natural Language processing](https://www.ibm.com/topics/natural-language-processing) functions of [TextBlob library](https://textblob.readthedocs.io/en/dev/).  A sentiment value of +1 is 'highly positive' while a sentiment value of -1 is 'highly negative'.")
