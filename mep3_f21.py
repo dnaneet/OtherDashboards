@@ -31,6 +31,7 @@ st.set_page_config(
      #layout="wide"
 )
 selection = st.sidebar.radio('Select ', ["Summary of changes", "Feedback from students", "Grade distribution", "Critical Incident Questionnaire data"])
+st.sidebar.markdown("This report was created by Aneet Narendranath with Python and Streamlit.")
 
 if selection == "Summary of changes":
     st.markdown("# MEP3 with a greater focus on student-collaboration") 
