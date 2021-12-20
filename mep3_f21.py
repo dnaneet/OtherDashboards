@@ -71,6 +71,11 @@ if selection == "Feedback from students":
     st.markdown("#### Summary of feedback received:")
     st.markdown("37/47 respondents scored 'unlimited attempts on quizzes' and 'Mastery Quizzes' 5/5. 28 out of 47 respondents scored 'Two design reviews' 5/5 while 22 out of 47 respondents scored '5-6 member teams' 5/5. Verbal comments received by students were positive for elements 1 and 2 and less positive to negative for element 3.  The instructor' reflection from interacting with students is that students lack the maturity to plan their work thereby using all 5-6 resources on their team.")
 
+    with st.expander("Survey scores -- how important these elements were as perceived by students"):
+      st.markdown("Each column holds the scores for one of the learning support elements.  Each row tallies the number of students that assigned this learning support element a usefulness score.")
+      df_scores = pd.read_csv("survey_scores.csv") 
+      st.table(df_scores)
+
     with st.expander("Written comments"):
       st.markdown("47 out of 141 students completed the survey but only 20 out of these 47 provided written comments.  These written comments had their sentiment analysed using [Natural Language processing](https://www.ibm.com/topics/natural-language-processing) functions of [TextBlob library](https://textblob.readthedocs.io/en/dev/).  A sentiment value of +1 is 'highly positive' while a sentiment value of -1 is 'highly negative'.")
       #df2 = pd.DataFrame(
@@ -96,11 +101,6 @@ if selection == "Feedback from students":
       st.markdown("### Survey results")
       df_comments = pd.DataFrame({"Comment" : comments["comments"], "Sentiment of comment": i_polarity})
       st.table(df_comments)
-
-    with st.expander("Survey scores -- how important these elements were as perceived by students"):
-      st.markdown("Each column holds the scores for one of the learning support elements.  Each row tallies the number of students that assigned this learning support element a usefulness score.")
-      df_scores = pd.read_csv("survey_scores.csv") 
-      st.table(df_scores)
 
 if selection == "Grade distribution":
   st.markdown('## MEP3 Historical Gradebook Dashboard')
