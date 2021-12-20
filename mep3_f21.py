@@ -39,7 +39,7 @@ if selection == "Summary of changes":
 
 
     st.markdown("### 1. Unlimited attempts on individual quizzes")
-    st.markdown("Individual assignments have formative assessment with multiple possible attempts while team assignments have used summative assessment (Bain, 2020). Students have engaged with course content and tested their software skills via individual assignments.  Team assignments relied on individually developed skills.  This approach ensured that the focus was on 'teamwork.' The formative-assessment nature of individual assignments allowed me (instructor) to engage students in constructive dialogue rather than arguments such as 'where/why did I 'lose' points?'"
+    st.markdown("Individual assignments have formative assessment with multiple possible attempts while team assignments have used summative assessment (Bain, 2020). Students have engaged with course content and tested their software skills via individual assignments.  Team assignments relied on individually developed skills.  This approach ensured that the focus was on 'teamwork.' The formative-assessment nature of individual assignments allowed me (instructor) to engage students in constructive dialogue rather than arguments such as 'where/why did I 'lose' points?'")
 
     st.write("(Bain, Ken. Super Courses: The Future of Teaching and Learning. Princeton University Press, 2021.)")
 
