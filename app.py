@@ -9,7 +9,11 @@ from langchain.text_splitter import CharacterTextSplitter
 from langchain.vectorstores import Chroma
 from langchain.document_loaders import TextLoader
 
-loader = TextLoader("pf.txt")
+
+uploaded_file = st.file_uploader("Choose a file")
+
+#loader = TextLoader("pf.txt")
+loader = TextLoader(uploaded_file)
 documents = loader.load()
 
 
@@ -20,10 +24,12 @@ embedding_function = SentenceTransformerEmbeddings(model_name="all-mpnet-base-v2
 
 db = Chroma.from_documents(docs, embedding_function)
 
+
+
 #query = "working in teams"
 query = st.text_area('Text to analyze', '''
     working in teams, (...)
     ''')
-docs = db.similarity_search(query)
+#docs = db.similarity_search(query)
 
-st.text(docs[0].page_content)
+#st.text(docs[0].page_content)
