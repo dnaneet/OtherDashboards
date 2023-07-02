@@ -1,0 +1,50 @@
+David Adamovicz
+MEEM 3901
+Professor James De Clerck
+Fall 2017
+As a transfer student to Michigan Technological University I was very excited to take another MEP
+course to learn more concepts and different programs. MEP 3 covered lots of material and many
+different concepts. For the two assignments I chose a group one and one I did individually. I chose the
+individual one to be Modeling Considerations and stress recovery because this was the single
+assignment I spent the most time on this semester and I felt I understood Finite Element Analysis much
+better after completing it. Based on the feedback given on my assignment I redid my calculations on the
+factor of safety and added a figure of the reaction forces. Those were the only two things that were
+wrong, so I was glad I performed the mesh analysis correctly. This was the hardest assignment in MEP 3.
+The first several hours working on the assignment were in vain because I could not figure out why my
+Linear Mesh did not work. Both professors spent time looking over it before suggesting I restart. Once I
+began the assignment again it was relatively straightforward but still required a lot of time and focus.
+The second assignment I chose Final Summary of Energy and MBD Models. I chose this group
+assignment because our team did well, we decided to use my model as one of the two final options, and
+this assignment basically reflects everything that was learned in the first half of the semester.. This
+AMESim models worked correctly and met all of the requirements we had, however we did not include
+plots of the Duty Cycle which was very simple to fix. This assignment was significant because it required
+knowledge of AMESim and how to create a model, understanding of a P.I.D. controller, and the ability to
+create a simulation in Motion View to simulate the Duty Cycle.
+MEP 3 covers many topics that were previously introduced from other courses. The courses that helped
+me the most with MEP 3 were Mechanics of Materials, MEP 1, MEP 2, and Mechanical System Design
+Analysis. Mechanics of Materials was helpful when we performed stress analyses on our horizontal
+mover. MEP 1 and MEP 2 both used HyperWorks to perform an FEA Analysis on a part so I was familiar
+with FEA which was very helpful. MEP 2 introduced the P.I.D. controller so I knew the concepts of the
+different gain values and the time constant. Mechanical System Design Analysis was helpful towards the
+end of the semester when we discussed failure theories and fatigue. MSDA went into more detail
+regarding these subjects than MEP 3 so it was very helpful to take them concurrently.
+Throughout each of the MEP courses I have gained confidence as an engineer because I have realized
+that I am capable of performing the tasks required in Industry. MEP 2 and MEP 3 both had class
+structures focused around a project modeled similar to industry. Taking MEP 3 and seeing how similar
+the structure was to the real world helped me gain confidence in my abilities and my future. Each of the
+MEP courses has helped me learn more regarding programs, processes, writing, working with a group,
+and many other things. The group structure of MEP 3 has helped my communication skills and I have
+learned how to work in a group to improve efficiency and the group dynamics. Recognizing my strengths
+and weaknesses has also been helpful when working with others. Throughout the MEP courses I have
+become more knowledgeable and learned to apply what I learn in other classes to real world situations
+that are presented in the MEP courses. I have grown a lot since MEP 1 and am excited for what MEP 4
+will bring.
+
+3D Modeling and Considerations
+David Adamovicz
+MEP 3
+11/16/2017
+
+1
+
+
