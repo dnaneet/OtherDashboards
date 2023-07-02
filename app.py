@@ -20,8 +20,10 @@ embedding_function = SentenceTransformerEmbeddings(model_name="all-mpnet-base-v2
 
 db = Chroma.from_documents(docs, embedding_function)
 
-query = "working in teams"
+#query = "working in teams"
+query = st.text_area('Text to analyze', '''
+    working in teams, (...)
+    ''')
 docs = db.similarity_search(query)
 
 st.text(docs[0].page_content)
-
